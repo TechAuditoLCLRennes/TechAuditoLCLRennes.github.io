@@ -12,7 +12,7 @@ Jauge :
 \- 348 places + 102 places balcons numérotées
 
 
-Dimensions Cage de scéne (cf. [cotes SCC](fichiers/Cotes%20SCC.PDF)) :
+Dimensions Cage de scéne (cf. [cotes SCC](/assets/pdf/LCL_cotes.pdf)) :
 ----------------------------------------------------------------------------------------------------------------
 
 \- Largeur: 16,00 m
@@ -35,7 +35,7 @@ Equipements scéniques/machinerie :
 
 \- 1 passerelle technique milieu de salle équipée d’une perche fixe
 
-\- 1 écran polichinelle en fond de scéne (cf. [tailles images](fichiers/Taillesimages.pdf) )
+\- 1 écran polichinelle en fond de scéne
 
 \- 1 patience motorisée équipée d’un rideau de scéne
 
@@ -45,7 +45,7 @@ Equipements scéniques/machinerie :
 Equipement plateau :
 --------------------
 
--10 praticables 2,00m x 2,00m modulables de 0,20m é 1,00m de hauteur
+-10 praticables 2,00m x 1,00m modulables de 0,20m à 1,00m de hauteur
 
 \- 2 escaliers modulables par 0,20m
 
@@ -66,5 +66,5 @@ Régies techniques :
 
 \- 1 régie nodale (recevant une partie des réseaux courants faibles pour captation)
 
-\- possibilité de déport de la régie en milieu de salle pour concert
+\- possibilité de déport de la régie en salle pour concert
   

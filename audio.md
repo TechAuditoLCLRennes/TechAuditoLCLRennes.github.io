@@ -41,7 +41,7 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | émetteurs pocket Axient ADX1 Shure             |  |  | **4** |  |  |  |  | **Console**                          |  |  |        |
 | Micro DPA 6066 d:fine                          |  |  | **4** |  |  |  |  | LAWO MC²36 24 Faders                 |  |  |        |
 | Micro DPA 4098-BX30                            |  |  | **4** |  |  |  |  | avec boitier CompactIO 32I/O Analogiques|  |  |        |
-| Micro DPA 4011F45                              |  |  | **2** |  |  |  |  |                                      |  |  |        |
+| Micro DPA 4011F45                              |  |  | **2** |  |  |  |  | et Server WAVES Platinum Bundle         |  |  |        |
   
 
 

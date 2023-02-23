@@ -1,4 +1,13 @@
-
+if(typeof scene !== 'undefined'){
+  scene.dispose(); 
+}else{
+   scene='undefined'
+}
+if(typeof renderer !== 'undefined'){
+  renderer.dispose(); 
+}else{
+   renderer='undefined'
+}
 document.querySelector(".pano1").innerHTML =""
 path1 =""
 format=""

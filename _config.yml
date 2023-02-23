@@ -21,7 +21,8 @@
 #title: technical-datas
 email: d.seignard@leschampslibres.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  A website with technical datas about LesChampsLibres's auditorium venue.
+  A website with technical informations
+  about LesChampsLibres's auditorium venue.
 #baseurl: "https://techauditolclrennes.github.io/technical-datas/" # the subpath of your site, e.g. /blog
 #url: "https://techauditolclrennes.github.io/technical-datas/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 

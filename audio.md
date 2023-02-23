@@ -44,17 +44,7 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Micro DPA 4011F45                              |  |  | **2** |  |  |  |  | et Server WAVES Platinum Bundle         |  |  |        |
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>  
+<a href="/assets/img/holo_screen.png" target="_blank"> 
+<img src="/assets/img/holo_screen.png" width=600px>
+</a>

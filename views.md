@@ -11,6 +11,7 @@ permalink: /views
 <div class="pano2" style="width:800px;height:600px;"></div>
 
 </div>
+
 <script src="../assets/js/three.min.js"></script>
 <script src="../assets/js/panolens.min.js"></script>
 <script src="../assets/js/pano.js"></script>

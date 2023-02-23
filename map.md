@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Map
+title: Accès
 permalink: /map
 ---
 <div style="display:flex;justify-content: center; align-items: center;flex-direction:column;">

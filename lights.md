@@ -3,8 +3,9 @@ layout: page
 title: Lights
 permalink: /lights
 ---
-<br/>
-        
+  
+  [Plan de feux 23/23](/assets/pdf/LCL_Plan_de_feu_22_23_ACCUEIL_LUX.pdf)  
+  
 | **Projecteurs**                                              |        |    |  |  |    |  **Console**                                        |        |
 | ------------------------------------------------------------ | ------ |    |  |  |    | --------------------------------------------------- | ------ |
 | PAR 64                                                       | **30** |    |  |  |    | Contrôleur DMX Martin M2PC                          | **1**  |

@@ -55,12 +55,12 @@ plugins:
 
 nav_pages:
   - index.md
-  - views.md
   - lights.md
   - audio.md
   - video.md
   - plans.md
   - contact.md
+  - views.md
   - map.md
 
 footer_pages:

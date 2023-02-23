@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Video
+title: Vidéo/Réseau
 permalink: /video
 ---
 

@@ -4,7 +4,7 @@ title: Lights
 permalink: /lights
 ---
   
-  [Plan de feux 23/23](/assets/pdf/LCL_Plan_de_feu_22_23_ACCUEIL_LUX.pdf)  
+  [Plan de feux](/assets/pdf/LCL_Plan_de_feu_22_23_ACCUEIL_LUX.pdf)  
   
 | **Projecteurs**                                              |        |    |  |  |    |  **Console**                                        |        |
 | ------------------------------------------------------------ | ------ |    |  |  |    | --------------------------------------------------- | ------ |

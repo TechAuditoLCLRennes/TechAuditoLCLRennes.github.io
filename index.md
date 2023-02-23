@@ -12,7 +12,7 @@ Jauge :
 \- 348 places + 102 places balcons numérotées
 
 
-Dimensions Cage de scéne (cf. [cotes SCC](/assets/pdf/LCL_cotes.pdf)) :
+Dimensions Cage de scéne (cf. [cotes](/assets/pdf/LCL_cotes.pdf)) :
 ----------------------------------------------------------------------------------------------------------------
 
 \- Largeur: 16,00 m

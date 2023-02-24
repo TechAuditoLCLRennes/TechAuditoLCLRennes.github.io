@@ -42,7 +42,7 @@ permalink: /video
 | Caméra Paluche AG-HCK 10G                                  |||| **1** |||| Pied lourd pour écran Samsung 55"                        |||| **1** |||| ROI DVI/HDMI to SDI  AJA                           |||| **2** |
 | Enregistreur AG-HMR 10                                     |||| **1** |||| Pied camera ManFrotto 525 PKIT                           |||| **1** |||| Model HI5  HD-SDI/HDMI to HDMI  AJA                |||| **2** |
 | Lentille de conversion téléobjectif T4314HE K              |||| **1** |||| Bras magique à friction variable 244 + 143BKT  Manfrotto |||| **2** |||| Skype Newtek Talkshow VS-100 + Clavier             |||| **1** |
-| Convertisseur Gd Angle X 0,7 W4307 HPP K                   |||| **1** ||||                                                          ||||       |||| Boitier 15 touches lcd elgato  Stream Deck         |||| **2** |
+| Convertisseur Gd Angle X 0,7 W4307 HPP K                   |||| **1** ||||                                                          ||||       ||||  lcd elgato          ||||  |
 | Rotule pour cam Paluche                                    |||| **1** ||||                                                          ||||       ||||                                                    ||||       |  
   
 #Réseau

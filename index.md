@@ -6,11 +6,18 @@ layout: page
 title: Description
 permalink: /
 ---
+
+
+# Descriptif
+
+<hr>
+
 Jauge :
 -------
 
 \- 348 places + 102 places balcons numérotées
 
+<hr>
 
 Dimensions Cage de scéne (cf. [cotes](/assets/pdf/LCL_cotes.pdf)) :
 ----------------------------------------------------------------------------------------------------------------
@@ -25,6 +32,7 @@ Dimensions Cage de scéne (cf. [cotes](/assets/pdf/LCL_cotes.pdf)) :
 
 \- Ouverture au manteau: 10,60m x 6,00m
 
+<hr>
 
 Equipements scéniques/machinerie :
 -------------------------------------------------------------------------------------------------------------------
@@ -41,6 +49,8 @@ Equipements scéniques/machinerie :
 
 \- 2 passerelles techniques latérales
 
+
+<hr>
 
 Equipement plateau :
 --------------------
@@ -59,6 +69,8 @@ Equipement plateau :
 
 \- 1 nacelle motorisée Génie AWP-25S (hauteur de travail : 7,50m)
 
+<hr>
+
 Régies techniques :
 -------------------
 
@@ -68,3 +80,4 @@ Régies techniques :
 
 \- possibilité de déport de la régie en salle pour concert
   
+<hr>

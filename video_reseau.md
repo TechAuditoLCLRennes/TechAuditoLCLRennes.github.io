@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Vidéo/Réseau
-permalink: /video
+permalink: /video_reseau
 ---
-#Video
+## Tailles d'images
 
-|  **TAILLE IMAGE**                           |||||||                                            |||||||                                         |
-| ------------------------------------------- ||||||| ------------------------------------------ ||||||| --------------------------------------- |
-| ------------------------------------------- ||||||| ------------------------------------------ ||||||| --------------------------------------- |
+
 |                                             ||||||| **Hauteur**                                ||||||| **Largeur**                             |
 | ------------------------------------------- ||||||| ------------------------------------------ ||||||| --------------------------------------- |
 | taille totale-toile écran                   ||||||| **7,6m**                                   ||||||| **10,6m**                               |
@@ -15,15 +13,17 @@ permalink: /video
 | taille écran à 1,80 du sol sans balcon 16/9 ||||||| **3,9m**                                   ||||||| **6,93m**                               |
 | taille max (écran au sol) + balcon16/9      ||||||| **4,02m**                                  ||||||| **7,15m**                               |
 | taille écran à 1,80 du sol + balcon 16/9    ||||||| **2,87m**                                  ||||||| **5,1m**                                |
-| ------------------------------------------- ||||||| ------------------------------------------ ||||||| --------------------------------------- |
-
-<br/>
-<br/>
-**DISTANCE Vidéoprojecteur/Ecran: 19,0m**  
-<br/>
-<br/>
 
 
+<hr>
+<br/>
+**DISTANCE Vidéoprojecteur --> Ecran: 19,0m**  
+<br/>
+<hr>
+
+## Parc Matériel Vidéo
+  
+|||||||||||||||||  
 | **Lecteurs vidéo**                                         ||||       |||| **Ecrans / moniteurs**                                   ||||       |||| **Divers**                                         ||||       |
 | ---------------------------------------------------------- |||| ----- |||| -------------------------------------------------------- |||| ----- |||| -------------------------------------------------- |||| ----- |
 | Lecteur multimédia avec assessoires et système EDIUS X     |||| **1** |||| Moniteur JVC DT 17L4 pour "Preview" vidéo                |||| **1** |||| Blackmagic Webpresenter                            |||| **1** |
@@ -45,5 +45,12 @@ permalink: /video
 | Convertisseur Gd Angle X 0,7 W4307 HPP K                   |||| **1** ||||                                                          ||||       ||||  lcd elgato          ||||  |
 | Rotule pour cam Paluche                                    |||| **1** ||||                                                          ||||       ||||                                                    ||||       |  
   
-#Réseau
+<hr>
 
+## Réseau
+
+
+
+Le réseau audiovisuel est basé sur une architecture fibre optique servie par 3 X [Frames Mediornet MicronUHD RIEDEL](https://riedel.net).  
+Le réseau LAN dédié est servi par 10 switchs [Gigacore Luminex](https://luminex.be).  
+Un réseau d'accueil composé de 3 switchs SG350 CISCO est également disponible.

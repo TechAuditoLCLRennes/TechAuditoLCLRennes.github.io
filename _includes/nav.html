@@ -5,7 +5,9 @@
       </button>
   
       <div class="collapse navbar-collapse" id="navbar" role="navigation">
+        <a href="https://www.leschampslibres.fr/" target="_blank"> 
         <img src="/assets/img/les-champs-libres.png" alt="">
+        </a>
         <ul class="navbar-nav mr-auto">
           {% for path in site.nav_pages %}
             {% assign nav_page=site.pages | where:"path",path | first %}
@@ -16,7 +18,9 @@
             </li>
           {% endfor %}
         </ul>
+        <a href="https://www.leschampslibres.fr/" target="_blank">
         <img src="/assets/img/les-champs-libres2.png" alt="">
+        </a>
       </div>
   
       <span class="navbar-text text-end">

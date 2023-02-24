@@ -29,10 +29,10 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Micro SENNHEISER e604                          |  |  | **3** |  |  |  |  | Caisson grave ML12 Amadeus           |  |  | **2**  |
 | Micro SENNHEISER e608                          |  |  | **2** |  |  |  |  | Enceinte façade C.HEIL Coax MTD115B  |  |  | **4**  |
 | Micro SENNHEISER E 906                         |  |  | **1** |  |  |  |  | Enceinte façade C.HEIL Coax MTD108B  |  |  | **5**  |
-| Micro AKG C414                                 |  |  | **2** |  |  |  |  | Enceinte PMX12 Amadeus               |  |  | **4**  |
+| Micro AKG C414                                 |  |  | **2** |  |  |  |  | Enceinte PMX12 Amadeus               |  |  | **2**  |
 | Micro NEUMAN KM 184 ST - set                   |  |  | **1** |  |  |  |  | Renfort de grave C.HEIL SB118        |  |  | **2**  |
 | Micro NEUMAN KMS 105                           |  |  | **2** |  |  |  |  | Caisson grave C. Heil SP15P          |  |  | **1**  |
-| Micro AKG D12VR                                |  |  | **1** |  |  |  |  | Enceinte L Acoustics 112P            |  |  | **2**  |
+| Micro AKG D12VR                                |  |  | **1** |  |  |  |  |             |  |  |   |
 | Micro BEYERDYNAMIC M88TG                       |  |  | **1** |  |  |  |  |                                      |  |  |        |
 | Micro AUDIO-TECHNICA AT4033a                   |  |  | **1** |  |  |  |  |                                      |  |  |        |
 | Micro ELECTROVOICE RE20                        |  |  | **1** |  |  |  |  | **Processeur**                       |  |  |        |

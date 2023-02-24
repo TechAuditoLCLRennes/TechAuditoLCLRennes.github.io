@@ -3,6 +3,7 @@ layout: page
 title: Vidéo/Réseau
 permalink: /video
 ---
+#Video
 
 |  **TAILLE IMAGE**                           |||||||                                            |||||||                                         |
 | ------------------------------------------- ||||||| ------------------------------------------ ||||||| --------------------------------------- |
@@ -42,4 +43,7 @@ permalink: /video
 | Enregistreur AG-HMR 10                                     |||| **1** |||| Pied camera ManFrotto 525 PKIT                           |||| **1** |||| Model HI5  HD-SDI/HDMI to HDMI  AJA                |||| **2** |
 | Lentille de conversion téléobjectif T4314HE K              |||| **1** |||| Bras magique à friction variable 244 + 143BKT  Manfrotto |||| **2** |||| Skype Newtek Talkshow VS-100 + Clavier             |||| **1** |
 | Convertisseur Gd Angle X 0,7 W4307 HPP K                   |||| **1** ||||                                                          ||||       |||| Boitier 15 touches lcd elgato  Stream Deck         |||| **2** |
-| Rotule pour cam Paluche                                    |||| **1** ||||                                                          ||||       ||||                                                    ||||       |
+| Rotule pour cam Paluche                                    |||| **1** ||||                                                          ||||       ||||                                                    ||||       |  
+  
+#Réseau
+

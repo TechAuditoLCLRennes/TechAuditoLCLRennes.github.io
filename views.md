@@ -9,6 +9,8 @@ permalink: /views
 <div class="pano1" style="width:800px;height:600px;"></div>
 <br/>
 <div class="pano2" style="width:800px;height:600px;"></div>
+<br/>
+<div class="pano3" style="width:1131px;height:600px;"><img  src="../assets/img/../../TechAuditoLCLRennes.github.io/assets/img/pano1-1_stitch2.jpg "/></div>
 
 </div>
 

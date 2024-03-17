@@ -19,14 +19,11 @@ const materials = textures.map(texture => new THREE.MeshBasicMaterial({ map: tex
 const cubeGeometry = new THREE.BoxGeometry(10, 10, 10);
 
 // Assign textures to the corresponding faces of the cube
-cubeGeometry.faces[4].materialIndex = 4; // Right face
-cubeGeometry.faces[5].materialIndex = 5; // Left face
-cubeGeometry.faces[0].materialIndex = 2; // Top face
-cubeGeometry.faces[1].materialIndex = 3; // Bottom face
-cubeGeometry.faces[2].materialIndex = 0; // Front face
-cubeGeometry.faces[3].materialIndex = 1; // Back face
+cubeGeometry.faces.forEach((face, index) => {
+  face.materialIndex = index; // Assign material index to each face
+});
 
-// Create the cube mesh
+// Create the cube mesh with the materials
 const cube = new THREE.Mesh(cubeGeometry, materials);
 scene.add(cube);
 

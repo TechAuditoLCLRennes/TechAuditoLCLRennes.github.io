@@ -10,7 +10,7 @@ permalink: /views
 <br/>
 <div class="pano2" style="width:800px;height:600px;"></div>
 <br/>
-<div class="pano3" style="width:1131px;height:600px;"><img  src="../assets/img/pano1-1_stitch2.jpg "/></div>
+<div class="pano3" style="width:1131px;height:600px;"><img style="width:1131px;height:600px;" src="../assets/img/pano1-1_stitch2.jpg "/></div>
 
 </div>
 

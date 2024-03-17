@@ -29,6 +29,11 @@ if (cubeGeometry.faces) {
 const cube = new THREE.Mesh(cubeGeometry, materials);
 scene.add(cube);
 
+// Add a directional light to the scene for better visibility
+const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+directionalLight.position.set(0, 0, 1);
+scene.add(directionalLight);
+
 // Create camera
 const camera = new THREE.PerspectiveCamera(90, 1, 1, 1000);
 camera.position.set(0, 0, 0);

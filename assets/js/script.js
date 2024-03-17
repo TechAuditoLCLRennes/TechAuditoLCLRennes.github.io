@@ -41,7 +41,7 @@ camera.lookAt([
   new THREE.Vector3(0, -1, 0),  // Negative Y face (Bottom)
   new THREE.Vector3(0, 0, -1),  // Positive Z face (Front)
   new THREE.Vector3(0, 0, 1)    // Negative Z face (Back)
-});
+]);
 
 // Set up renderer
 const renderer = new THREE.WebGLRenderer();

@@ -19,9 +19,11 @@ const materials = textures.map(texture => new THREE.MeshBasicMaterial({ map: tex
 const cubeGeometry = new THREE.BoxGeometry(10, 10, 10);
 
 // Assign textures to the corresponding faces of the cube
-cubeGeometry.faces.forEach((face, index) => {
-  face.materialIndex = index; // Assign material index to each face
-});
+if (cubeGeometry.faces) {
+  cubeGeometry.faces.forEach((face, index) => {
+    face.materialIndex = index; // Assign material index to each face
+  });
+}
 
 // Create the cube mesh with the materials
 const cube = new THREE.Mesh(cubeGeometry, materials);
@@ -39,7 +41,7 @@ camera.lookAt([
   new THREE.Vector3(0, -1, 0),  // Negative Y face (Bottom)
   new THREE.Vector3(0, 0, -1),  // Positive Z face (Front)
   new THREE.Vector3(0, 0, 1)    // Negative Z face (Back)
-]);
+});
 
 // Set up renderer
 const renderer = new THREE.WebGLRenderer();

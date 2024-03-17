@@ -45,7 +45,7 @@ camera.lookAt([
 
 // Set up renderer
 const renderer = new THREE.WebGLRenderer();
-renderer.setSize(800, 800);
+renderer.setSize(1200, 800);
 const container = document.getElementById('container');
 container.appendChild(renderer.domElement);
 

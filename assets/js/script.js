@@ -38,13 +38,13 @@ const cubeCamera = new THREE.CubeCamera(1, 1000, cubeRenderTarget);
 scene.add(cubeCamera);
 
 // Handle window resize
-window.addEventListener('resize', () => {
-  const width = container.clientWidth;
-  const height = container.clientHeight;
-  renderer.setSize(width, height);
-  camera.aspect = width / height;
-  camera.updateProjectionMatrix();
-  });
+//window.addEventListener('resize', () => {
+//  const width = container.clientWidth;
+//  const height = container.clientHeight;
+//  renderer.setSize(width, height);
+//  camera.aspect = width / height;
+//  camera.updateProjectionMatrix();
+//  });
 
 // Render the scene
 function animate() {

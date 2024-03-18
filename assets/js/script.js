@@ -36,23 +36,23 @@ controls.update();
 controls2.update();
 
 const cubeTextureLoader = new THREE.CubeTextureLoader();
-const cube2TextureLoader = new THREE.CubeTextureLoader();
+const cubeTextureLoader2 = new THREE.CubeTextureLoader();
 
 cubeTextureLoader.setPath('./assets/virtual_cubes/cube1/');
-cube2TextureLoader.setPath('./assets/virtual_cubes/cube2/');
+cubeTextureLoader2.setPath('./assets/virtual_cubes/cube2/');
 
 const cubeTexture = cubeTextureLoader.load([
   'right.jpg', 'left.jpg', 'top.jpg',
   'bottom.jpg', 'front.jpg', 'back.jpg'
 ]);
 
-const cube2Texture = cube2TextureLoader.load([
+const cubeTexture2 = cubeTextureLoader2.load([
   'right.jpg', 'left.jpg', 'top.jpg',
   'bottom.jpg', 'front.jpg', 'back.jpg'
 ]);
 
 scene.background = cubeTexture;
-scene2.background = cube2Texture;
+scene2.background = cubeTexture2;
 
 // Create the CubeRenderTarget
 const cubeRenderTarget = new THREE.WebGLCubeRenderTarget(512);

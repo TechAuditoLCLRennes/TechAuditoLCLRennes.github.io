@@ -1,17 +1,19 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.133.0/build/three.module.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.133.0/examples/jsm/controls/OrbitControls.js';
 
+const container = document.querySelector('.container');
+
 // Set up the scene
 const scene = new THREE.Scene();
 
 // Create the camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, container.innerWidth / container.innerHeight, 0.1, 1000);
 camera.position.z = 1;
 
 // Create the renderer
 const renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.querySelector('.container').appendChild(renderer.domElement);
+renderer.setSize(container.innerWidth, container.innerHeight);
+container.appendChild(renderer.domElement);
 //document.body.appendChild(renderer.domElement);
 
 // Add OrbitControls
@@ -37,8 +39,8 @@ scene.add(cubeCamera);
 
 // Handle window resize
 window.addEventListener('resize', () => {
-  const width = window.innerWidth;
-  const height = window.innerHeight;
+  const width = container.innerWidth;
+  const height = container.innerHeight;
   renderer.setSize(width, height);
   camera.aspect = width / height;
   camera.updateProjectionMatrix();

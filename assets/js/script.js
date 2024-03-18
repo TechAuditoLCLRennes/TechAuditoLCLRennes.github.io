@@ -1,7 +1,7 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.133.0/build/three.module.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.133.0/examples/jsm/controls/OrbitControls.js';
 
-const container = document.querySelector('.container');
+const container = document.querySelector('#container');
 
 // Set up the scene
 const scene = new THREE.Scene();

@@ -67,6 +67,10 @@ gltfControls.update();
 const cubeTextureLoader = new THREE.CubeTextureLoader();
 const cubeTextureLoader2 = new THREE.CubeTextureLoader();
 
+const gltfLight = new THREE.HemisphereLight(0xbbbbff, 0x444422);
+gltfLight.position.set(0, 1, 0);
+gltfScene.add(gltfLight);
+
 cubeTextureLoader.setPath('./assets/virtual_cubes/cube1/');
 cubeTextureLoader2.setPath('./assets/virtual_cubes/cube2/');
 

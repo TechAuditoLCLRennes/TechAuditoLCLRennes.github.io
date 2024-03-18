@@ -32,6 +32,12 @@ controls.dampingFactor = 0.05;
 controls2.dampingFactor = 0.05;
 controls.rotateSpeed = 0.5;
 controls2.rotateSpeed = 0.5;
+controls.enableZoom = true;
+controls2.enableZoom = true;
+controls.autoRotate = true;
+controls.autoRotateSpeed = 0.5;
+controls2.autoRotate = true;
+controls2.autoRotateSpeed = 0.5;
 controls.update();
 controls2.update();
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aperçu
+title: Aperçus
 permalink: /views
 ---
 

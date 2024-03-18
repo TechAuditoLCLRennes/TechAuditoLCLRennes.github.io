@@ -60,6 +60,8 @@ controls.autoRotate = true;
 controls.autoRotateSpeed = 0.5;
 controls2.autoRotate = true;
 controls2.autoRotateSpeed = 0.5;
+gltfControls.autoRotate = true;
+gltfControls.autoRotateSpeed = 0.5;
 controls.update();
 controls2.update();
 gltfControls.update();
@@ -129,8 +131,6 @@ animate2();
 
 function animateGltf() {
   requestAnimationFrame(animateGltf);
-  // Update the CubeCamera's environment map
-  gltfCameraCamera.update(gltfRenderer, gltfScene);
   // Render the main scene
   gltfRenderer.render(gltfScene, gltfCamera);
   gltfControls.update();

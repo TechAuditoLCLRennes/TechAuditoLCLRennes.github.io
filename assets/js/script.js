@@ -122,3 +122,13 @@ function animate2() {
   controls2.update();
 }
 animate2();
+
+function animateGltf() {
+  requestAnimationFrame(animateGltf);
+  // Update the CubeCamera's environment map
+  gltfCameraCamera.update(gltfRenderer, gltfScene);
+  // Render the main scene
+  gltfRenderer.render(gltfScene, gltfCamera);
+  gltfControls.update();
+}
+animateGltf();

@@ -15,9 +15,11 @@ permalink: /views
 <br/>
 </div>
 -->
-<!-- <script src="../assets/js/three.min.js"></script> -->
+<!-- <script src="../assets/js/three.min.js"></script> 
   <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
-  <script src="../assets/js/script.js"></script>
+
+  -->
+  <script src="../assets/js/script.js" type="module"></script>
 
 <!--
 <script src="../assets/js/panolens.min.js"></script>

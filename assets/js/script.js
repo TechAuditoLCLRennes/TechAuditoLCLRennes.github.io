@@ -1,62 +1,56 @@
-// Create a scene
+import * as THREE from 'https://cdn.skypack.dev/three@0.133.0/build/three.module.js';
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.133.0/examples/jsm/controls/OrbitControls.js';
+
+// Set up the scene
 const scene = new THREE.Scene();
 
-// Load textures
-const textureLoader = new THREE.TextureLoader();
-const textures = [
-  textureLoader.load('../assets/virtual_cubes/cube1/front.jpg'),
-  textureLoader.load('../assets/virtual_cubes/cube1/back.jpg'),
-  textureLoader.load('../assets/virtual_cubes/cube1/top.jpg'),
-  textureLoader.load('../assets/virtual_cubes/cube1/bottom.jpg'),
-  textureLoader.load('../assets/virtual_cubes/cube1/right.jpg'),
-  textureLoader.load('../assets/virtual_cubes/cube1/left.jpg')
-];
+// Create the camera
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+camera.position.z = 1;
 
-// Create materials with textures
-const materials = textures.map(texture => new THREE.MeshBasicMaterial({ map: texture }));
+// Create the renderer
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.querySelector('.container').appendChild(renderer.domElement);
+//document.body.appendChild(renderer.domElement);
 
-// Create cube geometry
-const cubeGeometry = new THREE.BoxGeometry(10, 10, 10);
+// Add OrbitControls
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; // Smoothly damping effect during rotation
+controls.dampingFactor = 0.05;
 
-// Assign textures to the corresponding faces of the cube
-if (cubeGeometry.faces) {
-  cubeGeometry.faces.forEach((face, index) => {
-    face.materialIndex = index; // Assign material index to each face
-  });
-}
+const cubeTextureLoader = new THREE.CubeTextureLoader();
 
-// Create the cube mesh with the materials
-const cube = new THREE.Mesh(cubeGeometry, materials);
-scene.add(cube);
+cubeTextureLoader.setPath('./assets/virtual_cubes/cube1/');
 
-// Add a directional light to the scene for better visibility
-const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-directionalLight.position.set(0, 0, 1);
-scene.add(directionalLight);
-
-// Create camera
-const camera = new THREE.PerspectiveCamera(90, 1, 1, 1000);
-camera.position.set(0, 0, 0);
-
-// Set camera orientation to face the internal sides of the cube
-camera.lookAt([
-  new THREE.Vector3(1, 0, 0),   // Positive X face (Right)
-  new THREE.Vector3(-1, 0, 0),  // Negative X face (Left)
-  new THREE.Vector3(0, 1, 0),   // Positive Y face (Top)
-  new THREE.Vector3(0, -1, 0),  // Negative Y face (Bottom)
-  new THREE.Vector3(0, 0, -1),  // Positive Z face (Front)
-  new THREE.Vector3(0, 0, 1)    // Negative Z face (Back)
+const skyboxTexture = cubeTextureLoader.load([
+  'right.jpg', 'left.jpg', 'top.jpg',
+  'bottom.jpg', 'front.jpg', 'back.jpg'
 ]);
 
-// Set up renderer
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize(1200, 800);
-const container = document.getElementById('container');
-container.appendChild(renderer.domElement);
+scene.background = skyboxTexture;
+
+// Create the CubeRenderTarget
+const cubeRenderTarget = new THREE.WebGLCubeRenderTarget(512);
+const cubeCamera = new THREE.CubeCamera(1, 1000, cubeRenderTarget);
+scene.add(cubeCamera);
+
+// Handle window resize
+window.addEventListener('resize', () => {
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+  renderer.setSize(width, height);
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+  });
 
 // Render the scene
 function animate() {
   requestAnimationFrame(animate);
+  // Update the CubeCamera's environment map
+  cubeCamera.update(renderer, scene);
+  // Render the main scene
   renderer.render(scene, camera);
+  controls.update();
 }
 animate();

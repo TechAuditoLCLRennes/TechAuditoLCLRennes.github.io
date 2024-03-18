@@ -29,7 +29,7 @@ const camera2 = new THREE.PerspectiveCamera(75, container2.clientWidth / contain
 const gltfCamera = new THREE.PerspectiveCamera(75, gltfContainer.clientWidth / gltfContainer.clientHeight, 0.1, 1000);
 camera2.position.z = 1;
 camera.position.z = 1;
-gltfCamera.position.set(0, 1, 2);
+gltfCamera.position.set(-5, 1, 2);
 
 // Create the renderer
 const renderer = new THREE.WebGLRenderer();

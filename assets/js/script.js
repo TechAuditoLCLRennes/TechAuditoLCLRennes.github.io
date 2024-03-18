@@ -13,7 +13,7 @@ const gltfScene = new THREE.Scene();
 
 const loader = new GLTFLoader();
 
-loader.load( '../assets/3D/model3D.glb', function ( gltf ) {
+loader.load( '../assets/3D/planes.glb', function ( gltf ) {
 
 	gltfScene.add( gltf.scene );
 

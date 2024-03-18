@@ -30,6 +30,7 @@ const gltfCamera = new THREE.PerspectiveCamera(75, gltfContainer.clientWidth / g
 camera2.position.z = 1;
 camera.position.z = 1;
 gltfCamera.position.set(-5, 1, 2);
+gltfCamera.zoom = 0.25;
 
 // Create the renderer
 const renderer = new THREE.WebGLRenderer();

@@ -7,12 +7,12 @@ const container = document.querySelector('.container');
 const scene = new THREE.Scene();
 
 // Create the camera
-const camera = new THREE.PerspectiveCamera(75, container.innerWidth / container.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
 camera.position.z = 1;
 
 // Create the renderer
 const renderer = new THREE.WebGLRenderer();
-renderer.setSize(container.innerWidth, container.innerHeight);
+renderer.setSize(container.clientWidth, container.clientHeight);
 container.appendChild(renderer.domElement);
 //document.body.appendChild(renderer.domElement);
 
@@ -39,8 +39,8 @@ scene.add(cubeCamera);
 
 // Handle window resize
 window.addEventListener('resize', () => {
-  const width = container.innerWidth;
-  const height = container.innerHeight;
+  const width = container.clientWidth;
+  const height = container.clientHeight;
   renderer.setSize(width, height);
   camera.aspect = width / height;
   camera.updateProjectionMatrix();

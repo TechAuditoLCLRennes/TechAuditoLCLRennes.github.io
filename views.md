@@ -6,6 +6,8 @@ permalink: /views
 
 <body>
 <div  id="container" style="display: flex;justify-content:center;align-items:center;flex-direction: column;width: 800px;height: 600px"></div>
+<div  id="container2" style="display: flex;justify-content:center;align-items:center;flex-direction: column;width: 800px;height: 600px"></div>
+
 <div style="display: flex;justify-content:center;align-items:center;flex-direction: column;width: 800px;height: 566px"><img style="width:800px;height:566px;" src="../assets/img/pano1-1_stitch2.jpg "/></div>
 <!--
 <br/>

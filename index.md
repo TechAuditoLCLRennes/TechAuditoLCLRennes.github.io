@@ -28,7 +28,7 @@ permalink: /
 
 ---
 
-### Equipements scéniques/machinerie
+### Équipements scéniques/machinerie
 
 \- 10 équipes motorisées + 3 jeux de pendrillons + une patience manuelle avec frise
 

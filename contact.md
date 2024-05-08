@@ -6,7 +6,7 @@ permalink: /contact
 
   <!-- add two spaces at the end of the line for a line break -->
 
-**Responsable d'Equipe**
+**Responsable d’équipe**
 Dewi SEIGNARD  
 &#128231; [d.seignard@leschampslibres.fr](mailto:d.seignard@leschampslibres.fr)  
 &#9742; : 02.23.40.66.89

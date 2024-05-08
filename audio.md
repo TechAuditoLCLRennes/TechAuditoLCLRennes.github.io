@@ -52,4 +52,4 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 
 ---
 
-![Holo Screen](/assets/img/holo_screen.png)
+[![Holo Screen Mini](/assets/img/holo_screen_mini.png)](/assets/img/holo_screen.png)

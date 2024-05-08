@@ -1,26 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 title: Description
 permalink: /
 ---
 
+## Descriptif
 
-# Descriptif
+---
 
-<hr>
-
-Jauge :
--------
+### Jauge
 
 \- 348 places + 102 places balcons numérotées
 
-<hr>
+---
 
-Dimensions Cage de scéne (cf. [cotes](/assets/pdf/LCL_cotes.pdf)) :
-----------------------------------------------------------------------------------------------------------------
+### Dimensions Cage de scène (cf. [cotes](/assets/pdf/LCL_cotes.pdf))
 
 \- Largeur: 16,00 m
 
@@ -32,10 +26,9 @@ Dimensions Cage de scéne (cf. [cotes](/assets/pdf/LCL_cotes.pdf)) :
 
 \- Ouverture au manteau: 10,60m x 6,00m
 
-<hr>
+---
 
-Equipements scéniques/machinerie :
--------------------------------------------------------------------------------------------------------------------
+### Equipements scéniques/machinerie
 
 \- 10 équipes motorisées + 3 jeux de pendrillons + une patience manuelle avec frise
 
@@ -43,17 +36,15 @@ Equipements scéniques/machinerie :
 
 \- 1 passerelle technique milieu de salle équipée d’une perche fixe
 
-\- 1 écran polichinelle en fond de scéne
+\- 1 écran polichinelle en fond de scène
 
-\- 1 patience motorisée équipée d’un rideau de scéne
+\- 1 patience motorisée équipée d’un rideau de scène
 
 \- 2 passerelles techniques latérales
 
+---
 
-<hr>
-
-Equipement plateau :
---------------------
+### Équipement plateau
 
 -10 praticables 2,00m x 1,00m modulables de 0,20m à 1,00m de hauteur
 
@@ -69,15 +60,14 @@ Equipement plateau :
 
 \- 1 nacelle motorisée Génie AWP-25S (hauteur de travail : 7,50m)
 
-<hr>
+---
 
-Régies techniques :
--------------------
+### Régies techniques
 
-\- 1 régie lumiére/son/vidéo recevant les réseaux courants faibles
+\- 1 régie lumière/son/vidéo recevant les réseaux courants faibles
 
 \- 1 régie nodale (recevant une partie des réseaux courants faibles pour captation)
 
 \- possibilité de déport de la régie en salle pour concert
-  
-<hr>
+
+---

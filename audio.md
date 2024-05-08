@@ -9,7 +9,7 @@ permalink: /audio
 La diffusion de Façade est composée de 80 Haut-Parleurs [Amadeus](https://amadeuslab.com) gérés  
 par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 
-<hr>
+---
 
 ## Parc Matériel
 
@@ -50,8 +50,6 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Micro DPA 4098-BX30 | | | **4** | | | | | avec boitier CompactIO 32I/O Analogiques| | | |
 | Micro DPA 4011F45 | | | **2** | | | | | et Server WAVES Platinum Bundle | | | |
 
-<hr>
-<br/>  
-<a href="/assets/img/holo_screen.png" target="_blank"> 
-<img src="/assets/img/holo_screen.png" width=600px>
-</a>
+---
+
+![Holo Screen](/assets/img/holo_screen.png)

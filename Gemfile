@@ -11,3 +11,6 @@ gem "webrick", "~> 1.8"
 gem "wdm", '>=0.1.0'
 
 gem "jekyll-remote-theme"
+
+gem 'jekyll-language-plugin'
+

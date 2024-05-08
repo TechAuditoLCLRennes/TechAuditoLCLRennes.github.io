@@ -31,6 +31,7 @@ remote_theme: benbalter/retlab
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-language-plugin
 
 
 # Exclude from processing.

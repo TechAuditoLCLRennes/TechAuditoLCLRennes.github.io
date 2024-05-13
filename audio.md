@@ -17,8 +17,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | ---------------------------------------------- | | | ----- | | | | | ------------------------------------ | | | ----- |
 | DI BSS AR133 | | | **4** | | | | | Enceinte C12R Amadeus | | | **6** |
 | DI RADIAL Stereo PRO AV2 | | | **9** | | | | | Enceinte C.HEIL Coax MTD112B | | | **4** |
-| DI RADIAL Stereo J-PC | | | **1** | | | | | Enceinte C8R Amadeus | | | **4** |
-| DI RADIAL Isolante Twin-ISO | | | **1** | | | | | | | | |
+| DI RADIAL Stereo J-PC | | | **1** | | | | | Enceinte C8R Amadeus | | | **6** |
+| DI RADIAL Isolante Twin-ISO | | | **1** | | | | |Caisson grave Amadeus ML15 | | |**1** |
 | DI RADIAL USB PRO | | | **2** | | | | | **PIEDS DE MICRO** | | | |
 | DI AVALON U5 | | | **1** | | | | | pied micro grand noir K&M 210 9B | | | **12** |
 | DI Rupert Neve RNDI | | | **4** | | | | | pied micro petit noir K&M 259B | | | **8** |

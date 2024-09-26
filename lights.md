@@ -4,7 +4,7 @@ title: Lights
 permalink: /lights
 ---
 
-[PLAN DE FEUX](/assets/pdf/LCL_Plan_de_feu_22_23_ACCUEIL_LUX.pdf)
+[PLAN DE FEUX](/assets/pdf/LCL_Plan_de_feu_2024_2025.pdf)
 
 ---
 
@@ -17,9 +17,9 @@ permalink: /lights
 | PAR 64                                                       |     |     | **12** |     |     |     |     | Contrôleur DMX Martin M2PC                          |     |     | **1**  |
 | Découpe RJ 614 SX (trappe Sully Blanc Chaud)                 |     |     | **16** |     |     |     |     | Console GrandMA3 Compact XT MA Lighting             |     |     | **1**  |
 | Découpe RJ 613 SX (trappe Sully Blanc Chaud)                 |     |     | **4**  |     |     |     |     |                                                     |     |     |        |
-| Découpe RJ 653 SX 4C                                         |     |     | **7**  |     |     |     |     |                                                     |     |     |        |
+| Découpe RJ 653 SX 4C                                         |     |     | **4**  |     |     |     |     |                                                     |     |     |        |
 | PC RJ 1000W 306 LPC                                          |     |     | **8**  |     |     |     |     | **DIVERS**                                          |     |     |        |
-| PC 650W                                                      |     |     | **18** |     |     |     |     | Splitter Booster DMX                                |     |     | **2**  |
+|                                                              |     |     |        |     |     |     |     | Splitter Booster DMX                                |     |     | **2**  |
 | Horizïodes Asymétriques 1000W YC ACCESS                      |     |     | **20** |     |     |     |     | Enttec DMX USB PRO MK2                              |     |     | **1**  |
 | Projecteur LED AYRTON Colorsun 200 S                         |     |     | **12** |     |     |     |     | Circuits De Gradation Sur Armoire DIGIPACK R.JULIAT |     |     | **48** |
 | Projecteur Led Wash AYRTON Nandobeam S6                      |     |     | **6**  |     |     |     |     | Récepteur DMX/RDM Lumen Radio                       |     |     | **1**  |

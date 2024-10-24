@@ -9,10 +9,10 @@ permalink: /video_reseau
 |                                             |     |     |     |     |     |     | **Hauteur** |     |     |     |     |     |     | **Largeur** |
 | ------------------------------------------- | --- | --- | --- | --- | --- | --- | ----------- | --- | --- | --- | --- | --- | --- | ----------- |
 | taille totale-toile écran                   |     |     |     |     |     |     | **7,6m**    |     |     |     |     |     |     | **10,6m**   |
-| taille max (écran au sol) sans balcon 16/9  |     |     |     |     |     |     | **4,02m**   |     |     |     |     |     |     | **7,15m**   |
-| taille écran à 1,80 du sol sans balcon 16/9 |     |     |     |     |     |     | **3,9m**    |     |     |     |     |     |     | **6,93m**   |
-| taille max (écran au sol) + balcon16/9      |     |     |     |     |     |     | **4,02m**   |     |     |     |     |     |     | **7,15m**   |
-| taille écran à 1,80 du sol + balcon 16/9    |     |     |     |     |     |     | **2,87m**   |     |     |     |     |     |     | **5,1m**    |
+| taille max (écran au sol) sans balcon 16/9  |     |     |     |     |     |     | **4,20m**   |     |     |     |     |     |     | **7,50m**   |
+| taille écran à 1,80 du sol sans balcon 16/9 |     |     |     |     |     |     | **3,45m**   |     |     |     |     |     |     | **6,10m**   |
+| taille max (écran au sol) + balcon16/9      |     |     |     |     |     |     | **4,20m**   |     |     |     |     |     |     | **7,50m**   |
+| taille écran à 1,80 du sol + balcon 16/9    |     |     |     |     |     |     | **2,75m**   |     |     |     |     |     |     | **4.90m**   |
 
 ---
 

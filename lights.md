@@ -19,7 +19,7 @@ permalink: /lights
 | Découpe RJ 613 SX (trappe Sully Blanc Chaud)                 |     |     | **4**  |     |     |     |     |                                                     |     |     |        |
 | Découpe RJ 653 SX 4C                                         |     |     | **4**  |     |     |     |     |                                                     |     |     |        |
 | PC RJ 1000W 306 LPC                                          |     |     | **8**  |     |     |     |     | **DIVERS**                                          |     |     |        |
-|                                                              |     |     |        |     |     |     |     | Splitter Booster DMX                                |     |     | **2**  |
+| Découpe ETC ColorSource Spot JR                              |     |     | **8**  |     |     |     |     | Splitter Booster DMX                                |     |     | **2**  |
 | Horizïodes Asymétriques 1000W YC ACCESS                      |     |     | **20** |     |     |     |     | Enttec DMX USB PRO MK2                              |     |     | **1**  |
 | Projecteur LED AYRTON Colorsun 200 S                         |     |     | **12** |     |     |     |     | Circuits De Gradation Sur Armoire DIGIPACK R.JULIAT |     |     | **48** |
 | Projecteur Led Wash AYRTON Nandobeam S6                      |     |     | **6**  |     |     |     |     | Récepteur DMX/RDM Lumen Radio                       |     |     | **1**  |

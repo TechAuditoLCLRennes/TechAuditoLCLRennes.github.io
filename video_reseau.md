@@ -57,13 +57,12 @@ Un réseau d'accueil composé de 3 switchs SG350 CISCO est également disponible
 
 ## Formats de fichiers pour projection de films
 
-Nous utilisons EDIUS pour la projection : https://www.edius.fr/
+Nous utilisons [EDIUS](https://www.edius.fr/) pour la projection
 
 Merci de fournir des fichiers au format ProRes de la meilleure qualité possible ou un DCP non crypté que nous pourrons convertir à ce format.
 Dans l’idéal, un format 1080p25
 
 D’autres formats de compression peuvent être utilisés, sans garantie sur la qualité de la diffusion due aux artefacts de compression et aux réglages du videoprojecteur.
-Voici la liste des formats supportés : https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf
+Voici la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf)
 
-Il est possible d'intégrer des sous-titres CC ou SDH et/ou une bande-son en audiodescription pour la boucle sonore de la salle
-
+Accessibilité : Il est possible d'intégrer des sous-titres CC ou SDH et/ou une bande-son en audiodescription pour la boucle sonore de la salle.

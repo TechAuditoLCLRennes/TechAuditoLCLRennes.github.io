@@ -24,7 +24,7 @@ permalink: /
 
 \- Hauteur hors-tout: 9,10m
 
-\- Ouverture au manteau: 10,60m x 6,00m
+\- Ouverture au manteau: 10,60m x 5,45m
 
 ---
 

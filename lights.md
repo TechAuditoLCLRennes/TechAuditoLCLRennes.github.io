@@ -25,10 +25,9 @@ permalink: /lights
 | Projecteur LED AYRTON Colorsun 200 S                         |     |     | **12** |     |     |     |     | Circuits De Gradation Sur Armoire DIGIPACK R.JULIAT |     |     | **48** |
 | Projecteur Led Wash AYRTON Nandobeam S6                      |     |     | **6**  |     |     |     |     | Récepteur DMX/RDM Lumen Radio                       |     |     | **1**  |
 | Découpe Led 75w 25/45° RVE                                   |     |     | **6**  |     |     |     |     | Émetteur/récepteur DMX/RDM/Ethernet Lumen Radio     |     |     | **1**  |
-| Blinder 2x2                                                  |     |     | **10** |     |     |     |     | Mergeur LUMINEX                                     |     |     | **1**  |
+| Lyre Asservie AYRTON Mistral                                 |     |     | **8**  |     |     |     |     | Mergeur LUMINEX                                     |     |     | **1**  |
 | Lyre Asservie AYRTON Diablo                                  |     |     | **6**  |     |     |     |     | Machine À Brouillard MDG ATMe + Bouteille CO2 2,5m3 |     |     | **1**  |
-| Lyre Asservie AYRTON Mistral                                 |     |     | **8**  |     |     |     |     |                                                     |     |     |        |
+| Blinders Leds CHAUVET - Shocker P2                           |     |     | **6**  |     |     |     |     |                                                     |     |     |        |
 | Rampe SHOWTEC Funstrip                                       |     |     | **12** |     |     |     |     |                                                     |     |     |        |
 | Lot De 8 Rampes LED SHOWTEC Octostrip + Boîtiers De Commande |     |     | **2**  |     |     |     |     |                                                     |     |     |        |
-| Blinders Leds CHAUVET - Shocker P2                           |     |     | **6**  |     |     |     |     |                                                     |     |     |        |
  

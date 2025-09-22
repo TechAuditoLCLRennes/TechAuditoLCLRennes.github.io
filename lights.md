@@ -18,6 +18,7 @@ permalink: /lights
 | Découpe RJ 614 SX (trappe Sully Blanc Chaud)                 |     |     | **16** |     |     |     |     | Console GrandMA3 Compact XT MA Lighting             |     |     | **1**  |
 | Découpe RJ 613 SX (trappe Sully Blanc Chaud)                 |     |     | **4**  |     |     |     |     |                                                     |     |     |        |
 | Découpe RJ 653 SX 4C                                         |     |     | **4**  |     |     |     |     |                                                     |     |     |        |
+| Découpe RJ 714 SX (lanterne BIZET Blanc variable )           |     |     | **3**  |     |     |     |     |                                                     |     |     |        |
 | PC RJ 1000W 306 LPC                                          |     |     | **8**  |     |     |     |     | **DIVERS**                                          |     |     |        |
 | Découpe ETC ColorSource Spot JR                              |     |     | **8**  |     |     |     |     | Splitter Booster DMX                                |     |     | **2**  |
 | Horizïodes Asymétriques 1000W YC ACCESS                      |     |     | **20** |     |     |     |     | Enttec DMX USB PRO MK2                              |     |     | **1**  |
@@ -27,5 +28,7 @@ permalink: /lights
 | Blinder 2x2                                                  |     |     | **10** |     |     |     |     | Mergeur LUMINEX                                     |     |     | **1**  |
 | Lyre Asservie AYRTON Diablo                                  |     |     | **6**  |     |     |     |     | Machine À Brouillard MDG ATMe + Bouteille CO2 2,5m3 |     |     | **1**  |
 | Lyre Asservie AYRTON Mistral                                 |     |     | **8**  |     |     |     |     |                                                     |     |     |        |
-| Rampe SHOWTEC Funstrip                                       |     |     | **8**  |     |     |     |     |                                                     |     |     |        |
+| Rampe SHOWTEC Funstrip                                       |     |     | **12** |     |     |     |     |                                                     |     |     |        |
 | Lot De 8 Rampes LED SHOWTEC Octostrip + Boîtiers De Commande |     |     | **2**  |     |     |     |     |                                                     |     |     |        |
+| Blinders Leds CHAUVET - Shocker P2                           |     |     | **6**  |     |     |     |     |                                                     |     |     |        |
+ 

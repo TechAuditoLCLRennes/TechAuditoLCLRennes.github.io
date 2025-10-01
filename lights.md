@@ -4,7 +4,11 @@ title: Lights
 permalink: /lights
 ---
 
-[PLAN DE FEUX](/assets/pdf/LCL_Plan_de_feu_2024_2025.pdf)
+[PLAN DE FEUX](/assets/pdf/25-26/Plan_de_feu_et_patch/LCL_Plan_de_feu_2025-26.pdf)
+
+[PATCH](/assets/pdf/25-26/Plan_de_feu_et_patch/Patch_DMX_LCL_2025-26.pdf)
+
+[INFO CIRCUITS ALIMENTATION](/assets/pdf/25-26/Infos_Circuits_Alimentation.pdf)
 
 ---
 

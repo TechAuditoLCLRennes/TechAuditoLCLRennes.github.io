@@ -1,182 +1,176 @@
-<div class="views-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px 0;">
-  <!-- Panorama 1 -->
-  <div class="view-card" style="text-align: center;">
-    <h4 style="margin-bottom: 10px;">Panorama 360° - Vue 1</h4>
-    <div class="pano1" style="width: 450px; height: 300px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;"></div>
+<style>
+.views-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 0;
+}
+.view-card {
+  text-align: center;
+}
+.view-card h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.view-canvas {
+  width: 450px;
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  display: block;
+}
+</style>
+
+<div class="views-grid">
+  <div class="view-card">
+    <h4>Panorama 360° - Vue 1</h4>
+    <div id="pano1" class="view-canvas"></div>
   </div>
-  
-  <!-- Panorama 2 -->
-  <div class="view-card" style="text-align: center;">
-    <h4 style="margin-bottom: 10px;">Panorama 360° - Vue 2</h4>
-    <div class="pano2" style="width: 450px; height: 300px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;"></div>
+  <div class="view-card">
+    <h4>Panorama 360° - Vue 2</h4>
+    <div id="pano2" class="view-canvas"></div>
   </div>
-  
-  <!-- Image Panorama -->
-  <div class="view-card" style="text-align: center;">
-    <h4 style="margin-bottom: 10px;">Vue panoramique</h4>
-    <img style="width: 450px; height: 283px; border-radius: 8px; object-fit: cover;" 
-         src="/assets/img/pano1-1_stitch2.jpg" 
-         alt="Panorama 360° de l'intérieur de l'Auditorium des Champs Libres" />
+  <div class="view-card">
+    <h4>Vue panoramique</h4>
+    <img class="view-canvas" style="object-fit: cover;"
+         src="/assets/img/pano1-1_stitch2.jpg"
+         alt="Vue panoramique de l'Auditorium des Champs Libres" />
   </div>
-  
-  <!-- Modèle 3D GLTF -->
-  <div class="view-card" style="text-align: center;">
-    <h4 style="margin-bottom: 10px;">Modèle 3D de l'Auditorium</h4>
-    <div id="gltf" style="width: 450px; height: 300px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;"></div>
+  <div class="view-card">
+    <h4>Modèle 3D de l'Auditorium</h4>
+    <div id="gltf-viewer" class="view-canvas"></div>
   </div>
 </div>
 
-<!-- Three.js local (compatible PANOLENS r105) -->
-<script src="/assets/js/three.min.js"></script>
-<script src="/assets/js/OrbitControls.js"></script>
-<script src="/assets/js/GLTFLoader.js"></script>
-<!-- Panolens pour les panoramas 360 -->
+<!-- Panolens (embarque sa propre version de Three.js r105) -->
 <script src="/assets/js/panolens.min.js"></script>
 
 <script>
-(function() {
-  // Cache-busting pour forcer le rechargement
-  const cacheBuster = '?v=' + Date.now();
-  
-  // Vérification que les conteneurs existent
-  const pano1Container = document.querySelector(".pano1");
-  const pano2Container = document.querySelector(".pano2");
-  const gltfContainer = document.querySelector("#gltf");
-  
-  // Initialisation des panoramas 360°
-  if (typeof PANOLENS !== 'undefined' && pano1Container && pano2Container) {
-    try {
-      // PANOLENS CubePanorama order: +x (right), -x (left), +y (up/top), -y (down/bottom), +z (front), -z (back)
-      
-      // Panorama 1 - cube1
-      const path1 = "/assets/virtual_cubes/cube1/";
-      const panorama1 = new PANOLENS.CubePanorama([
-        path1 + 'right.jpg' + cacheBuster,
-        path1 + 'left.jpg' + cacheBuster,
-        path1 + 'top.jpg' + cacheBuster,
-        path1 + 'bottom.jpg' + cacheBuster,
-        path1 + 'front.jpg' + cacheBuster,
-        path1 + 'back.jpg' + cacheBuster
-      ]);
-      
-      // Panorama 2 - cube2 (DIFFÉRENT de cube1!)
-      const path2 = "/assets/virtual_cubes/cube2/";
-      const panorama2 = new PANOLENS.CubePanorama([
-        path2 + 'right.jpg' + cacheBuster,
-        path2 + 'left.jpg' + cacheBuster,
-        path2 + 'top.jpg' + cacheBuster,
-        path2 + 'bottom.jpg' + cacheBuster,
-        path2 + 'front.jpg' + cacheBuster,
-        path2 + 'back.jpg' + cacheBuster
-      ]);
-      
-      const viewer1 = new PANOLENS.Viewer({
-        container: pano1Container,
-        controlButtons: ["fullscreen"],
-        viewIndicator: true,
-        autoRotate: true,
-        autoRotateSpeed: 0.3
-      });
-      viewer1.add(panorama1);
-      
-      const viewer2 = new PANOLENS.Viewer({
-        container: pano2Container,
-        controlButtons: ["fullscreen"],
-        viewIndicator: true,
-        autoRotate: true,
-        autoRotateSpeed: 0.3
-      });
-      viewer2.add(panorama2);
-      
-      console.log('Panoramas 360° initialisés');
-      console.log('Panorama 1 images:', path1);
-      console.log('Panorama 2 images:', path2);
-    } catch (error) {
-      console.error('Erreur panoramas:', error);
-      pano1Container.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du panorama 1</p>';
-      pano2Container.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du panorama 2</p>';
-    }
-  } else {
-    console.warn('PANOLENS non disponible ou conteneurs manquants');
+(function initPanoramas() {
+  var pano1El = document.getElementById('pano1');
+  var pano2El = document.getElementById('pano2');
+  if (!pano1El || !pano2El || typeof PANOLENS === 'undefined') return;
+
+  var fmt = '.jpg';
+  var p1 = '/assets/virtual_cubes/cube1/';
+  var p2 = '/assets/virtual_cubes/cube2/';
+
+  // CubePanorama face order pour PANOLENS: px, nx, py, ny, pz, nz
+  var panorama1 = new PANOLENS.CubePanorama([
+    p1 + 'right' + fmt, p1 + 'left' + fmt,
+    p1 + 'top'   + fmt, p1 + 'bottom' + fmt,
+    p1 + 'front' + fmt, p1 + 'back'   + fmt
+  ]);
+  var panorama2 = new PANOLENS.CubePanorama([
+    p2 + 'right' + fmt, p2 + 'left' + fmt,
+    p2 + 'top'   + fmt, p2 + 'bottom' + fmt,
+    p2 + 'front' + fmt, p2 + 'back'   + fmt
+  ]);
+
+  new PANOLENS.Viewer({ container: pano1El, controlButtons: ['fullscreen'], autoRotate: true, autoRotateSpeed: 0.3 }).add(panorama1);
+  new PANOLENS.Viewer({ container: pano2El, controlButtons: ['fullscreen'], autoRotate: true, autoRotateSpeed: 0.3 }).add(panorama2);
+})();
+</script>
+
+<!-- Three.js r105 + loaders chargés APRÈS PANOLENS, stockés dans un namespace privé -->
+<script>
+(function initGltfViewer() {
+  var container = document.getElementById('gltf-viewer');
+  if (!container) return;
+
+  // Sauvegarder la référence THREE créée par PANOLENS, puis la réutiliser
+  // PANOLENS a déjà chargé Three.js r105 - on le réutilise directement
+  var T = window.THREE;
+  if (!T) { container.innerHTML = '<p style="padding:20px;color:red">Three.js non disponible</p>'; return; }
+
+  var scene = new T.Scene();
+  scene.background = new T.Color(0xeeeeee);
+
+  var w = container.clientWidth || 450;
+  var h = container.clientHeight || 300;
+  var camera = new T.PerspectiveCamera(45, w / h, 0.01, 1000);
+  camera.position.set(10, 6, 10);
+
+  var renderer = new T.WebGLRenderer({ antialias: true });
+  renderer.setSize(w, h);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  container.appendChild(renderer.domElement);
+
+  // Éclairage
+  scene.add(new T.AmbientLight(0xffffff, 0.7));
+  var dir = new T.DirectionalLight(0xffffff, 0.8);
+  dir.position.set(5, 10, 5);
+  scene.add(dir);
+  scene.add(new T.HemisphereLight(0xbbddff, 0x335522, 0.5));
+
+  // OrbitControls (r105 compatible - dans THREE namespace)
+  var controls = null;
+  if (T.OrbitControls) {
+    controls = new T.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 0.15;
+    controls.minDistance = 2;
+    controls.maxDistance = 30;
   }
-  
-  // Initialisation du modèle 3D GLTF
-  if (typeof THREE !== 'undefined' && gltfContainer) {
-    try {
-      const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0xf0f0f0);
-      
-      const camera = new THREE.PerspectiveCamera(50, gltfContainer.clientWidth / gltfContainer.clientHeight, 0.1, 1000);
-      camera.position.set(8, 4, 8);
-      
-      const renderer = new THREE.WebGLRenderer({ antialias: true });
-      renderer.setSize(gltfContainer.clientWidth, gltfContainer.clientHeight);
-      renderer.setPixelRatio(window.devicePixelRatio);
-      gltfContainer.appendChild(renderer.domElement);
-      
-      const controls = new THREE.OrbitControls(camera, renderer.domElement);
-      controls.enableDamping = true;
-      controls.dampingFactor = 0.05;
-      controls.autoRotate = true;
-      controls.autoRotateSpeed = 0.1;
-      controls.minDistance = 3;
-      controls.maxDistance = 20;
-      
-      // Éclairage
-      const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
-      scene.add(ambientLight);
-      
-      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-      directionalLight.position.set(5, 10, 5);
-      scene.add(directionalLight);
-      
-      const light = new THREE.HemisphereLight(0xbbbbff, 0x444422);
-      scene.add(light);
-      
-      const loader = new THREE.GLTFLoader();
-      
-      // Utiliser planes.glb (sans compression Draco)
-      loader.load('/assets/3D/planes.glb' + cacheBuster, function(gltf) {
-        // Centrer et scaler le modèle
-        const box = new THREE.Box3().setFromObject(gltf.scene);
-        const center = box.getCenter(new THREE.Vector3());
-        const size = box.getSize(new THREE.Vector3());
-        
-        const maxDim = Math.max(size.x, size.y, size.z);
-        const scale = 4 / maxDim;
-        gltf.scene.scale.multiplyScalar(scale);
-        gltf.scene.position.sub(center.multiplyScalar(scale));
-        
-        scene.add(gltf.scene);
-        console.log('Modèle 3D planes.glb chargé avec succès');
-      }, function(progress) {
-        if (progress.total > 0) {
-          console.log('Chargement 3D:', Math.round(progress.loaded / progress.total * 100) + '%');
-        }
-      }, function(error) {
-        console.error('Erreur chargement planes.glb:', error);
-      });
-      
-      function animate() {
-        requestAnimationFrame(animate);
-        controls.update();
-        renderer.render(scene, camera);
-      }
-      animate();
-      
-      // Resize handler
-      window.addEventListener('resize', function() {
-        const width = gltfContainer.clientWidth;
-        const height = gltfContainer.clientHeight;
-        renderer.setSize(width, height);
-        camera.aspect = width / height;
-        camera.updateProjectionMatrix();
-      });
-      
-    } catch (error) {
-      console.error('Erreur modèle 3D:', error);
-      gltfContainer.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du modèle 3D</p>';
-    }
+
+  // Chargement GLTFLoader depuis fichier local
+  function loadModel() {
+    if (!T.GLTFLoader) { console.warn('GLTFLoader non disponible'); return; }
+    var loader = new T.GLTFLoader();
+    loader.load('/assets/3D/planes.glb', function(gltf) {
+      var box = new T.Box3().setFromObject(gltf.scene);
+      var center = box.getCenter(new T.Vector3());
+      var size = box.getSize(new T.Vector3());
+      var maxDim = Math.max(size.x, size.y, size.z);
+      var scale = 6 / maxDim;
+      gltf.scene.scale.setScalar(scale);
+      center.multiplyScalar(scale);
+      gltf.scene.position.set(-center.x, -center.y, -center.z);
+      scene.add(gltf.scene);
+    }, undefined, function(err) {
+      console.error('Erreur GLB:', err);
+    });
   }
+
+  function animate() {
+    requestAnimationFrame(animate);
+    if (controls) controls.update();
+    renderer.render(scene, camera);
+  }
+
+  window.addEventListener('resize', function() {
+    var nw = container.clientWidth;
+    var nh = container.clientHeight;
+    camera.aspect = nw / nh;
+    camera.updateProjectionMatrix();
+    renderer.setSize(nw, nh);
+  });
+
+  animate();
+
+  // Charger OrbitControls et GLTFLoader locaux APRÈS que PANOLENS ait fini
+  // Ils s'enregistrent dans THREE namespace
+  var s1 = document.createElement('script');
+  s1.src = '/assets/js/OrbitControls.js';
+  s1.onload = function() {
+    controls = new T.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 0.15;
+    controls.minDistance = 2;
+    controls.maxDistance = 30;
+
+    var s2 = document.createElement('script');
+    s2.src = '/assets/js/GLTFLoader.js';
+    s2.onload = loadModel;
+    document.body.appendChild(s2);
+  };
+  document.body.appendChild(s1);
 })();
 </script>

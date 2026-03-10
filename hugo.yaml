@@ -34,7 +34,7 @@ params:
     width: normal
 
   theme:
-    default: light
+    default: system
     displayToggle: true
 
   footer:

@@ -56,24 +56,45 @@
   var pano2El = document.getElementById('pano2');
   if (!pano1El || !pano2El || typeof PANOLENS === 'undefined') return;
 
-  var fmt = '.jpg';
-  var p1 = '/assets/virtual_cubes/cube1/';
-  var p2 = '/assets/virtual_cubes/cube2/';
-
-  // CubePanorama face order pour PANOLENS: px, nx, py, ny, pz, nz
+  // Panorama 1 - cube1
   var panorama1 = new PANOLENS.CubePanorama([
-    p1 + 'right' + fmt, p1 + 'left' + fmt,
-    p1 + 'top'   + fmt, p1 + 'bottom' + fmt,
-    p1 + 'front' + fmt, p1 + 'back'   + fmt
-  ]);
-  var panorama2 = new PANOLENS.CubePanorama([
-    p2 + 'right' + fmt, p2 + 'left' + fmt,
-    p2 + 'top'   + fmt, p2 + 'bottom' + fmt,
-    p2 + 'front' + fmt, p2 + 'back'   + fmt
+    '/assets/virtual_cubes/cube1/right.jpg',
+    '/assets/virtual_cubes/cube1/left.jpg',
+    '/assets/virtual_cubes/cube1/top.jpg',
+    '/assets/virtual_cubes/cube1/bottom.jpg',
+    '/assets/virtual_cubes/cube1/front.jpg',
+    '/assets/virtual_cubes/cube1/back.jpg'
   ]);
 
-  new PANOLENS.Viewer({ container: pano1El, controlButtons: ['fullscreen'], autoRotate: true, autoRotateSpeed: 0.3 }).add(panorama1);
-  new PANOLENS.Viewer({ container: pano2El, controlButtons: ['fullscreen'], autoRotate: true, autoRotateSpeed: 0.3 }).add(panorama2);
+  // Panorama 2 - cube2 (initialisé APRÈS chargement du premier)
+  var panorama2 = new PANOLENS.CubePanorama([
+    '/assets/virtual_cubes/cube2/right.jpg',
+    '/assets/virtual_cubes/cube2/left.jpg',
+    '/assets/virtual_cubes/cube2/top.jpg',
+    '/assets/virtual_cubes/cube2/bottom.jpg',
+    '/assets/virtual_cubes/cube2/front.jpg',
+    '/assets/virtual_cubes/cube2/back.jpg'
+  ]);
+
+  // Viewer 1
+  var viewer1 = new PANOLENS.Viewer({
+    container: pano1El,
+    controlButtons: ['fullscreen'],
+    autoRotate: true,
+    autoRotateSpeed: 0.3
+  });
+  viewer1.add(panorama1);
+
+  // Viewer 2 créé après que panorama1 soit chargé
+  panorama1.addEventListener('load', function() {
+    var viewer2 = new PANOLENS.Viewer({
+      container: pano2El,
+      controlButtons: ['fullscreen'],
+      autoRotate: true,
+      autoRotateSpeed: 0.3
+    });
+    viewer2.add(panorama2);
+  });
 })();
 </script>
 

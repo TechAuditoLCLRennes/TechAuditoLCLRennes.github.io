@@ -3,12 +3,30 @@
 /resources/_gen/
 /.hugo_build.lock
 
-# Jekyll (legacy)
+# Jekyll (legacy - fichiers conservés localement mais exclus du repo)
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+Gemfile
 Gemfile.lock
+_config.yml
+_includes/
+_layouts/
+go.mod
+go.sum
+
+# Fichiers Jekyll à la racine (migrés vers content/)
+/index.md
+/audio.md
+/lights.md
+/contact.md
+/video_reseau.md
+/map.md
+/views.md
+/about.md
+/plans.md
+/index_bak
 
 # IDE
 .vscode/

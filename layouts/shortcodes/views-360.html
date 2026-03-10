@@ -27,11 +27,11 @@
 <div class="views-grid">
   <div class="view-card">
     <h4>Panorama 360° - Vue 1</h4>
-    <div id="pano1" class="view-canvas"></div>
+    <iframe src="/pano-viewer.html?cube=cube1" class="view-canvas" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="view-card">
     <h4>Panorama 360° - Vue 2</h4>
-    <div id="pano2" class="view-canvas"></div>
+    <iframe src="/pano-viewer.html?cube=cube2" class="view-canvas" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="view-card">
     <h4>Vue panoramique</h4>
@@ -45,60 +45,9 @@
   </div>
 </div>
 
-<!-- Three.js DOIT être chargé AVANT PANOLENS -->
+<!-- Three.js pour le modèle 3D (chargé après les iframes) -->
 <script src="/assets/js/three.min.js"></script>
-<!-- Panolens (utilise THREE déjà disponible) -->
-<script src="/assets/js/panolens.min.js"></script>
 
-<script>
-(function initPanoramas() {
-  var pano1El = document.getElementById('pano1');
-  var pano2El = document.getElementById('pano2');
-  if (!pano1El || !pano2El || typeof PANOLENS === 'undefined') return;
-
-  // Panorama 1 - cube1
-  var panorama1 = new PANOLENS.CubePanorama([
-    '/assets/virtual_cubes/cube1/right.jpg',
-    '/assets/virtual_cubes/cube1/left.jpg',
-    '/assets/virtual_cubes/cube1/top.jpg',
-    '/assets/virtual_cubes/cube1/bottom.jpg',
-    '/assets/virtual_cubes/cube1/front.jpg',
-    '/assets/virtual_cubes/cube1/back.jpg'
-  ]);
-
-  // Panorama 2 - cube2 (initialisé APRÈS chargement du premier)
-  var panorama2 = new PANOLENS.CubePanorama([
-    '/assets/virtual_cubes/cube2/right.jpg',
-    '/assets/virtual_cubes/cube2/left.jpg',
-    '/assets/virtual_cubes/cube2/top.jpg',
-    '/assets/virtual_cubes/cube2/bottom.jpg',
-    '/assets/virtual_cubes/cube2/front.jpg',
-    '/assets/virtual_cubes/cube2/back.jpg'
-  ]);
-
-  // Viewer 1
-  var viewer1 = new PANOLENS.Viewer({
-    container: pano1El,
-    controlButtons: ['fullscreen'],
-    autoRotate: true,
-    autoRotateSpeed: 0.3
-  });
-  viewer1.add(panorama1);
-
-  // Viewer 2 créé après que panorama1 soit chargé
-  panorama1.addEventListener('load', function() {
-    var viewer2 = new PANOLENS.Viewer({
-      container: pano2El,
-      controlButtons: ['fullscreen'],
-      autoRotate: true,
-      autoRotateSpeed: 0.3
-    });
-    viewer2.add(panorama2);
-  });
-})();
-</script>
-
-<!-- Three.js r105 + loaders chargés APRÈS PANOLENS, stockés dans un namespace privé -->
 <script>
 (function initGltfViewer() {
   var container = document.getElementById('gltf-viewer');

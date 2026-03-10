@@ -21,28 +21,30 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 
 ## Parc Matériel Vidéo
 
-{{< columns >}}
-{{< col title="Lecteurs vidéo" >}}
+### Lecteurs, Vidéoprojecteur, Mélangeurs & Caméra
 
+{{< columns >}}
+{{< col >}}
+**Lecteurs vidéo**
 | Type | Quantité |
 |------|----------|
 | Lecteur multimédia avec accessoires et système EDIUS X | 1 |
 | Carte de diffusion Grass Valley Storm 3G | 1 |
 
-### Vidéoprojecteur
+**Vidéoprojecteur**
 | Type | Quantité |
 |------|----------|
 | Digital Projection Titan 4K/UHD MLS 20 000 Lumens | 1 |
 {{< /col >}}
-{{< col title="Mélangeurs" >}}
-
+{{< col >}}
+**Mélangeurs**
 | Type | Quantité |
 |------|----------|
 | Mélangeur vidéo compatible HD EIKOS EKS 500 | 1 |
 | Mélangeur vidéo compatible 4K EIKOS EKS-4K | 1 |
 | Mélangeur vidéo ATEM 4K Black magic Design | 1 |
 
-### Caméra
+**Caméra**
 | Type | Quantité |
 |------|----------|
 | Caméra Paluche AG-HCK 10G | 1 |
@@ -66,16 +68,19 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Double écran rackable SmartView DUO Black magic design | 1 |
 | Écran Iiyama Prolite XB2483HSU | 1 |
 
-{{< columns >}}
-{{< col title="Pieds et crochets" >}}
+### Pieds & Divers
 
+{{< columns >}}
+{{< col >}}
+**Pieds et crochets**
 | Type | Quantité |
 |------|----------|
 | Pied lourd pour écran Samsung 55" | 1 |
 | Pied camera Manfrotto 525 PKIT | 1 |
 | Bras magique à friction variable 244 + 143BKT Manfrotto | 2 |
 {{< /col >}}
-{{< col title="Divers" >}}
+{{< col >}}
+**Divers**
 | Type | Quantité |
 |------|----------|
 | Blackmagic Webpresenter | 1 |

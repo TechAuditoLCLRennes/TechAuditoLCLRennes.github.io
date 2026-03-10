@@ -1,10 +1,14 @@
 <style>
 .views-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   padding: 16px 0;
+}
+@media (max-width: 1000px) {
+  .views-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .view-card {
   text-align: center;
@@ -15,8 +19,8 @@
   font-weight: 600;
 }
 .view-canvas {
-  width: 450px;
-  height: 300px;
+  width: 100%;
+  height: 320px;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #ddd;

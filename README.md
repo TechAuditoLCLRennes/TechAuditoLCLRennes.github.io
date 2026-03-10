@@ -4,7 +4,7 @@ Site web présentant la fiche technique complète de l'Auditorium des Champs Lib
 
 ## 📋 Description
 
-Ce site Jekyll GitHub Pages documente les équipements techniques et caractéristiques de l'auditorium :
+Ce site Hugo documente les équipements techniques et caractéristiques de l'auditorium :
 - **Audio** : Système de diffusion HOLOPHONIX avec 80 HP Amadeus, parc matériel complet
 - **Lumière** : Console GrandMA3, projecteurs AYRTON, parc DMX complet
 - **Vidéo/Réseau** : Vidéoprojecteur 4K 20 000 lumens, mélangeurs, infrastructure réseau
@@ -13,54 +13,55 @@ Ce site Jekyll GitHub Pages documente les équipements techniques et caractéris
 ## 🚀 Développement Local
 
 ### Prérequis
-- Ruby 3.0+
-- Bundler gem
-- Jekyll
+- Hugo Extended 0.112.0+
+- Go 1.22+
+- Git
 
 ### Installation
 ```bash
-# Cloner le repository
-git clone https://github.com/TechAuditoLCLRennes/TechAuditoLCLRennes.github.io.git
+# Cloner le repository avec les submodules
+git clone --recurse-submodules https://github.com/TechAuditoLCLRennes/TechAuditoLCLRennes.github.io.git
 cd TechAuditoLCLRennes.github.io
 
-# Installer les dépendances
-bundle install
-
 # Démarrer le serveur local
-bundle exec jekyll serve
+hugo server -D
 ```
 
-Le site sera accessible à `http://localhost:4000`
+Le site sera accessible à `http://localhost:1313`
 
 ## 📁 Structure du Projet
 
 ```
-├── _config.yml          # Configuration Jekyll
-├── _layouts/
-│   └── page.html        # Layout des pages
-├── _includes/
-│   ├── nav.html         # Navigation
-│   ├── map.html         # Carte
-│   └── views.html       # Visualisations 3D
-├── assets/
-│   ├── pdf/             # Documents techniques
-│   ├── img/             # Images
-│   ├── js/              # JavaScript (Three.js)
-│   ├── 3D/              # Modèles 3D
-│   └── virtual_cubes/   # Textures pour panoramas
-├── index.md             # Page d'accueil
-├── audio.md             # Équipements audio
-├── lights.md            # Équipements lumière
-├── video_reseau.md      # Équipements vidéo/réseau
-└── views.md             # Visualisations 3D
+├── hugo.yaml             # Configuration Hugo
+├── go.mod                # Dépendances Go
+├── content/
+│   ├── _index.md         # Page d'accueil
+│   ├── audio.md          # Équipements audio
+│   ├── lights.md         # Équipements lumière
+│   ├── video-reseau.md   # Équipements vidéo/réseau
+│   ├── contact.md        # Contacts
+│   ├── views.md          # Visualisations 3D
+│   └── map.md            # Plan d'accès
+├── layouts/
+│   └── shortcodes/
+│       ├── views-360.html    # Visualisations 3D
+│       └── map-access.html   # Carte OpenStreetMap
+├── static/
+│   └── assets/
+│       ├── pdf/             # Documents techniques
+│       ├── img/             # Images
+│       ├── js/              # JavaScript (Three.js)
+│       ├── 3D/              # Modèles 3D
+│       └── virtual_cubes/   # Textures pour panoramas
+└── themes/hextra/        # Thème Hextra (submodule)
 ```
 
 ## 🎨 Technologies
 
-- **Jekyll** : Générateur de sites statiques
-- **GitHub Pages** : Hébergement
+- **Hugo** : Générateur de sites statiques
+- **Hextra** : Thème professionnel moderne
+- **GitHub Pages** : Hébergement via GitHub Actions
 - **Three.js** : Visualisations 3D et panoramas
-- **Bootstrap** : Framework CSS (via thème retlab)
 - **Markdown** : Contenu des pages
 
 ## 📊 Fonctionnalités
@@ -79,20 +80,20 @@ Le site sera accessible à `http://localhost:4000`
 ## 🔧 Maintenance
 
 ### Mise à jour du contenu
-- Modifier les fichiers `.md` dans la racine
-- Ajouter les nouveaux PDF dans `assets/pdf/`
-- Mettre à jour les images dans `assets/img/`
+- Modifier les fichiers `.md` dans `content/`
+- Ajouter les nouveaux PDF dans `static/assets/pdf/`
+- Mettre à jour les images dans `static/assets/img/`
 
 ### Mise à jour des modèles 3D
-- Remplacer `assets/3D/planes.glb`
-- Mettre à jour les textures dans `assets/virtual_cubes/`
+- Remplacer `static/assets/3D/planes.glb`
+- Mettre à jour les textures dans `static/assets/virtual_cubes/`
 
 ### Build et déploiement
 ```bash
 # Build pour production
-bundle exec jekyll build
+hugo --minify
 
-# Déploiement automatique via GitHub Pages
+# Déploiement automatique via GitHub Actions
 git push origin main
 ```
 
@@ -107,4 +108,4 @@ Ce projet est maintenu par l'équipe technique des Champs Libres.
 
 ---
 
-[🗺️ Voir la carte](map.md) • [🎭 Visualisations 3D](views.md)
+[🗺️ Voir la carte](/map) • [🎭 Visualisations 3D](/views)

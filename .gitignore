@@ -1,1 +1,18 @@
-_site
+# Hugo
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Jekyll (legacy)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

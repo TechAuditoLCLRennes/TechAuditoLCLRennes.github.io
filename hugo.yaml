@@ -1,0 +1,80 @@
+baseURL: https://techauditolclrennes.github.io/
+title: Auditorium des Champs Libres - Fiche Technique
+defaultContentLanguage: fr
+
+enableRobotsTXT: true
+enableGitInfo: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github-dark
+    noClasses: false
+
+theme: hextra
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: wide
+
+  page:
+    width: normal
+
+  theme:
+    default: light
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+
+  sidebar:
+    hide: false
+
+  highlight:
+    copy:
+      enable: true
+
+  search:
+    enable: true
+    type: flexsearch
+
+menu:
+  main:
+    - name: Description
+      pageRef: /
+      weight: 10
+    - name: Lumière
+      pageRef: /lights
+      weight: 20
+    - name: Audio
+      pageRef: /audio
+      weight: 30
+    - name: Vidéo/Réseau
+      pageRef: /video-reseau
+      weight: 40
+    - name: Contacts
+      pageRef: /contact
+      weight: 50
+    - name: Vues 360°
+      pageRef: /views
+      weight: 60
+    - name: Plan d'accès
+      pageRef: /map
+      weight: 70
+    - identifier: champslibres
+      name: Les Champs Libres
+      url: https://www.leschampslibres.fr/
+      weight: 100
+      params:
+        type: external

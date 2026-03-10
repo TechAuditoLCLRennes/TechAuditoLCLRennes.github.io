@@ -1,16 +1,31 @@
-/* Supprimer la limite de largeur des pages */
-.hextra-max-page-width {
-  max-width: 100% !important;
-}
-
+/* Élargir la zone de contenu centré */
 .hextra-max-content-width {
-  max-width: 100% !important;
+  max-width: 860px !important;
 }
 
-/* Réduire légèrement les paddings latéraux sur grands écrans */
-@media (min-width: 1280px) {
-  main#content.hx\:px-6 {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
+/* Élargir la page globale pour donner plus de place à la TOC et au contenu */
+.hextra-max-page-width {
+  max-width: 1600px !important;
+}
+
+/* Amélioration des tableaux */
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+.content table th {
+  background-color: rgba(100, 100, 100, 0.15);
+  font-weight: 600;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  border: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.content table td {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgba(150, 150, 150, 0.2);
+  vertical-align: top;
 }

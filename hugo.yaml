@@ -28,10 +28,10 @@ params:
       path: /assets/img/les-champs-libres.png
       link: https://www.leschampslibres.fr/
       width: 80
-    width: wide
+    width: normal
 
   page:
-    width: wide
+    width: normal
 
   theme:
     default: system
@@ -43,10 +43,11 @@ params:
     displayPoweredBy: false
 
   sidebar:
-    hide: true
+    hide: false
 
   toc:
-    enable: false
+    enable: true
+    depth: 3
 
   highlight:
     copy:

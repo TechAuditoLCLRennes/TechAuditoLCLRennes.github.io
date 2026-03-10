@@ -2,6 +2,7 @@
 layout: page
 title: Vidéo/Réseau
 permalink: /video_reseau
+description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres - Vidéoprojecteur 4K 20 000 lumens, mélangeurs, caméras et infrastructure réseau complète"
 ---
 
 ## Tailles d'images

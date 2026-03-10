@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#title: technical-datas
+title: Auditorium des Champs Libres - Fiche Technique
 email: d.seignard@leschampslibres.fr
-description: >- # this means to ignore newlines until "baseurl:"
-#baseurl: "https://techauditolclrennes.github.io/technical-datas/" # the subpath of your site, e.g. /blog
-#url: "https://techauditolclrennes.github.io/technical-datas/" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: 
-github_username:  TechAuditoLCLRennes
+description: >- 
+  Fiche technique complète de l'Auditorium des Champs Libres à Rennes. 
+  Équipements audio, lumière, vidéo et caractéristiques techniques de la salle.
+baseurl: "" 
+url: "https://techauditolclrennes.github.io" 
+twitter_username: 
+github_username: TechAuditoLCLRennes
 
 # Build settings
 remote_theme: benbalter/retlab

@@ -2,6 +2,7 @@
 layout: page
 title: Audio
 permalink: /audio
+description: "Équipements audio de l'Auditorium des Champs Libres - Système HOLOPHONIX 80 HP Amadeus, parc matériel complet avec micros, consoles et processeurs"
 ---
 
 ## Diffusion

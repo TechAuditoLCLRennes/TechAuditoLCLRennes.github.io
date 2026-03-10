@@ -2,6 +2,7 @@
 layout: page
 title: Lights
 permalink: /lights
+description: "Équipements lumière de l'Auditorium des Champs Libres - Console GrandMA3, projecteurs AYRTON, parc DMX complet avec plans de feux et patchs"
 ---
 
 [PLAN DE FEUX](/assets/pdf/25-26/Plan_de_feu_et_patch/LCL_Plan_de_feu_2025-26.pdf)

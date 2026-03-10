@@ -35,17 +35,13 @@ description: "Équipements lumière de l'Auditorium des Champs Libres - Console 
 | Lot De 8 Rampes LED SHOWTEC Octostrip + Boîtiers De Commande | 2 |
 
 {{< columns >}}
-{{< col >}}
-### Consoles
-
+{{< col title="Consoles" >}}
 | Type | Quantité |
 |------|----------|
 | Contrôleur DMX Martin M2PC | 1 |
 | Console GrandMA3 Compact XT MA Lighting | 1 |
 {{< /col >}}
-{{< col >}}
-### Divers
-
+{{< col title="Divers" >}}
 | Type | Quantité |
 |------|----------|
 | Splitter Booster DMX | 2 |

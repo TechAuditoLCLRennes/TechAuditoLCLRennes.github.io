@@ -1,3 +1,8 @@
+{{ $title := .Get "title" }}
 <div class="col-item">
+{{ if $title }}
+  {{ $anchor := $title | urlize }}
+  <h3 id="{{ $anchor }}"><a class="heading-link" href="#{{ $anchor }}">{{ $title }}</a></h3>
+{{ end }}
 {{ .Inner | markdownify }}
 </div>

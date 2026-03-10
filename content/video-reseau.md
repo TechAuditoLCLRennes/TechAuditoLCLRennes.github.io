@@ -22,8 +22,7 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 ## Parc Matériel Vidéo
 
 {{< columns >}}
-{{< col >}}
-### Lecteurs vidéo
+{{< col title="Lecteurs vidéo" >}}
 
 | Type | Quantité |
 |------|----------|
@@ -31,13 +30,11 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Carte de diffusion Grass Valley Storm 3G | 1 |
 
 ### Vidéoprojecteur
-
 | Type | Quantité |
 |------|----------|
 | Digital Projection Titan 4K/UHD MLS 20 000 Lumens | 1 |
 {{< /col >}}
-{{< col >}}
-### Mélangeurs
+{{< col title="Mélangeurs" >}}
 
 | Type | Quantité |
 |------|----------|
@@ -46,7 +43,6 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Mélangeur vidéo ATEM 4K Black magic Design | 1 |
 
 ### Caméra
-
 | Type | Quantité |
 |------|----------|
 | Caméra Paluche AG-HCK 10G | 1 |
@@ -71,8 +67,7 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Écran Iiyama Prolite XB2483HSU | 1 |
 
 {{< columns >}}
-{{< col >}}
-### Pieds et crochets
+{{< col title="Pieds et crochets" >}}
 
 | Type | Quantité |
 |------|----------|
@@ -80,9 +75,7 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Pied camera Manfrotto 525 PKIT | 1 |
 | Bras magique à friction variable 244 + 143BKT Manfrotto | 2 |
 {{< /col >}}
-{{< col >}}
-### Divers
-
+{{< col title="Divers" >}}
 | Type | Quantité |
 |------|----------|
 | Blackmagic Webpresenter | 1 |

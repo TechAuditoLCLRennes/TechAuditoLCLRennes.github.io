@@ -1,0 +1,16 @@
+/* Supprimer la limite de largeur des pages */
+.hextra-max-page-width {
+  max-width: 100% !important;
+}
+
+.hextra-max-content-width {
+  max-width: 100% !important;
+}
+
+/* Réduire légèrement les paddings latéraux sur grands écrans */
+@media (min-width: 1280px) {
+  main#content.hx\:px-6 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}

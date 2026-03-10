@@ -1,6 +1,6 @@
 /* Élargir la zone de contenu centré */
 .hextra-max-content-width {
-  max-width: 860px !important;
+  max-width: 900px !important;
 }
 
 /* Élargir la page globale pour donner plus de place à la TOC et au contenu */
@@ -12,20 +12,68 @@
 .content table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.92rem;
+  margin: 0.5rem 0 1rem 0;
+  font-size: 0.9rem;
 }
 
 .content table th {
   background-color: rgba(100, 100, 100, 0.15);
   font-weight: 600;
-  padding: 0.6rem 0.8rem;
+  padding: 0.5rem 0.75rem;
   text-align: left;
   border: 1px solid rgba(150, 150, 150, 0.3);
 }
 
 .content table td {
-  padding: 0.5rem 0.8rem;
+  padding: 0.4rem 0.75rem;
   border: 1px solid rgba(150, 150, 150, 0.2);
   vertical-align: top;
+}
+
+/* Layout 2 colonnes */
+.cols-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.col-item h3 {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .cols-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Cartes de contact */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.contact-card {
+  border: 1px solid rgba(150, 150, 150, 0.3);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  background: rgba(100, 100, 100, 0.05);
+}
+
+.contact-card strong {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(150, 150, 150, 0.8);
+  margin-bottom: 0.3rem;
+}
+
+.contact-card .name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
 }

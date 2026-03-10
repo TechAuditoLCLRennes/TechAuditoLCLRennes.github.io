@@ -51,6 +51,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Micro DPA 4098-BX30 | 4 |
 | Micro DPA 4011F45 | 2 |
 
+{{< columns >}}
+{{< col >}}
 ### Retours
 
 | Type | Quantité |
@@ -59,7 +61,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Enceinte C.HEIL Coax MTD112B | 4 |
 | Enceinte C8R Amadeus | 6 |
 | Caisson Grave Amadeus ML15 | 1 |
-
+{{< /col >}}
+{{< col >}}
 ### Pieds de Micro
 
 | Type | Quantité |
@@ -67,6 +70,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Pied Micro Grand Noir K&M 210 9B | 12 |
 | Pied Micro Petit Noir K&M 259B | 8 |
 | Pied Long Droit Base Ronde 260 B K&M | 4 |
+{{< /col >}}
+{{< /columns >}}
 
 ### Enceintes
 
@@ -86,12 +91,15 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Renfort De Grave C.HEIL SB118 | 2 |
 | Caisson Grave C. Heil SP15P | 1 |
 
+{{< columns >}}
+{{< col >}}
 ### Processeur
 
 | Type | Quantité |
 |------|----------|
 | [HOLOPHONIX 128 I/o](https://holophonix.xyz) | 1 |
-
+{{< /col >}}
+{{< col >}}
 ### Console
 
 | Type | Quantité |
@@ -99,6 +107,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | LAWO MC²36 24 Faders | 1 |
 | Avec Boitier CompactIO 32I/O Analogiques | - |
 | Et Server WAVES Platinum Bundle | - |
+{{< /col >}}
+{{< /columns >}}
 
 ---
 

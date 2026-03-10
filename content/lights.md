@@ -34,13 +34,16 @@ description: "Équipements lumière de l'Auditorium des Champs Libres - Console 
 | Rampe SHOWTEC Funstrip | 12 |
 | Lot De 8 Rampes LED SHOWTEC Octostrip + Boîtiers De Commande | 2 |
 
+{{< columns >}}
+{{< col >}}
 ### Consoles
 
 | Type | Quantité |
 |------|----------|
 | Contrôleur DMX Martin M2PC | 1 |
 | Console GrandMA3 Compact XT MA Lighting | 1 |
-
+{{< /col >}}
+{{< col >}}
 ### Divers
 
 | Type | Quantité |
@@ -52,3 +55,5 @@ description: "Équipements lumière de l'Auditorium des Champs Libres - Console 
 | Émetteur/récepteur DMX/RDM/Ethernet Lumen Radio | 1 |
 | Mergeur LUMINEX | 1 |
 | Machine À Brouillard MDG ATMe + Bouteille CO2 2,5m3 | 1 |
+{{< /col >}}
+{{< /columns >}}

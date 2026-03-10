@@ -21,6 +21,8 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 
 ## Parc Matériel Vidéo
 
+{{< columns >}}
+{{< col >}}
 ### Lecteurs vidéo
 
 | Type | Quantité |
@@ -33,7 +35,8 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Type | Quantité |
 |------|----------|
 | Digital Projection Titan 4K/UHD MLS 20 000 Lumens | 1 |
-
+{{< /col >}}
+{{< col >}}
 ### Mélangeurs
 
 | Type | Quantité |
@@ -51,6 +54,8 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Lentille de conversion téléobjectif T4314HE K | 1 |
 | Convertisseur Gd Angle X 0,7 W4307 HPP K | 1 |
 | Rotule pour cam Paluche | 1 |
+{{< /col >}}
+{{< /columns >}}
 
 ### Écrans / moniteurs
 
@@ -65,6 +70,8 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Double écran rackable SmartView DUO Black magic design | 1 |
 | Écran Iiyama Prolite XB2483HSU | 1 |
 
+{{< columns >}}
+{{< col >}}
 ### Pieds et crochets
 
 | Type | Quantité |
@@ -72,7 +79,8 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Pied lourd pour écran Samsung 55" | 1 |
 | Pied camera Manfrotto 525 PKIT | 1 |
 | Bras magique à friction variable 244 + 143BKT Manfrotto | 2 |
-
+{{< /col >}}
+{{< col >}}
 ### Divers
 
 | Type | Quantité |
@@ -90,6 +98,8 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | Model HI5 HD-SDI/HDMI to HDMI AJA | 2 |
 | Skype Newtek Talkshow VS-100 + Clavier | 1 |
 | lcd elgato | - |
+{{< /col >}}
+{{< /columns >}}
 
 ---
 

@@ -46,8 +46,7 @@ params:
     hide: true
 
   toc:
-    enable: true
-    depth: 3
+    enable: false
 
   highlight:
     copy:

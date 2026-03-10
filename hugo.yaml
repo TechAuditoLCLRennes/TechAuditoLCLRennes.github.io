@@ -27,7 +27,7 @@ params:
     logo:
       path: /assets/img/les-champs-libres.png
       link: https://www.leschampslibres.fr/
-      width: 120
+      width: 80
     width: wide
 
   page:

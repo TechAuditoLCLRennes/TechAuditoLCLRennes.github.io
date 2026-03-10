@@ -43,49 +43,55 @@
   // Initialisation des panoramas 360°
   if (typeof PANOLENS !== 'undefined' && pano1Container && pano2Container) {
     try {
-      const path1 = "/assets/virtual_cubes/cube1/";
-      const path2 = "/assets/virtual_cubes/cube2/";
       const format = ".jpg";
       
+      // Panorama 1 - utilise cube1
+      const path1 = "/assets/virtual_cubes/cube1/";
       const panorama1 = new PANOLENS.CubePanorama([
-        path1 + 'left' + format,
         path1 + 'right' + format,
+        path1 + 'left' + format,
         path1 + 'top' + format,
         path1 + 'bottom' + format,
-        path1 + 'back' + format,
-        path1 + 'front' + format
+        path1 + 'front' + format,
+        path1 + 'back' + format
       ]);
       
+      // Panorama 2 - utilise cube2 (chemins différents!)
+      const path2 = "/assets/virtual_cubes/cube2/";
       const panorama2 = new PANOLENS.CubePanorama([
-        path2 + 'left' + format,
         path2 + 'right' + format,
+        path2 + 'left' + format,
         path2 + 'top' + format,
         path2 + 'bottom' + format,
-        path2 + 'back' + format,
-        path2 + 'front' + format
+        path2 + 'front' + format,
+        path2 + 'back' + format
       ]);
       
-      new PANOLENS.Viewer({
+      const viewer1 = new PANOLENS.Viewer({
         container: pano1Container,
         controlButtons: ["fullscreen"],
         viewIndicator: true,
         autoRotate: true,
-        autoRotateSpeed: 0.5
-      }).add(panorama1);
+        autoRotateSpeed: 0.3,
+        initialLookAt: new THREE.Vector3(0, 0, -1)
+      });
+      viewer1.add(panorama1);
       
-      new PANOLENS.Viewer({
+      const viewer2 = new PANOLENS.Viewer({
         container: pano2Container,
         controlButtons: ["fullscreen"],
         viewIndicator: true,
         autoRotate: true,
-        autoRotateSpeed: 0.5
-      }).add(panorama2);
+        autoRotateSpeed: 0.3,
+        initialLookAt: new THREE.Vector3(0, 0, -1)
+      });
+      viewer2.add(panorama2);
       
-      console.log('Panoramas 360° initialisés');
+      console.log('Panoramas 360° initialisés - cube1 et cube2');
     } catch (error) {
       console.error('Erreur panoramas:', error);
-      pano1Container.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du panorama</p>';
-      pano2Container.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du panorama</p>';
+      pano1Container.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du panorama 1</p>';
+      pano2Container.innerHTML = '<p style="color: red; padding: 20px;">Erreur de chargement du panorama 2</p>';
     }
   } else {
     console.warn('PANOLENS non disponible ou conteneurs manquants');
@@ -95,28 +101,57 @@
   if (typeof THREE !== 'undefined' && gltfContainer) {
     try {
       const scene = new THREE.Scene();
-      const camera = new THREE.PerspectiveCamera(75, gltfContainer.clientWidth / gltfContainer.clientHeight, 0.1, 1000);
-      camera.position.set(-5, 1, 2);
+      scene.background = new THREE.Color(0xf0f0f0);
+      
+      const camera = new THREE.PerspectiveCamera(50, gltfContainer.clientWidth / gltfContainer.clientHeight, 0.1, 1000);
+      camera.position.set(8, 4, 8); // Position plus éloignée pour zoom réduit
       
       const renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(gltfContainer.clientWidth, gltfContainer.clientHeight);
+      renderer.setPixelRatio(window.devicePixelRatio);
       gltfContainer.appendChild(renderer.domElement);
       
       const controls = new THREE.OrbitControls(camera, renderer.domElement);
       controls.enableDamping = true;
       controls.dampingFactor = 0.05;
       controls.autoRotate = true;
-      controls.autoRotateSpeed = 0.5;
+      controls.autoRotateSpeed = 0.1; // Vitesse réduite (était 0.5)
+      controls.minDistance = 3;
+      controls.maxDistance = 20;
+      
+      // Éclairage amélioré
+      const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+      scene.add(ambientLight);
+      
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+      directionalLight.position.set(5, 10, 5);
+      scene.add(directionalLight);
       
       const light = new THREE.HemisphereLight(0xbbbbff, 0x444422);
       scene.add(light);
       
       const loader = new THREE.GLTFLoader();
-      loader.load('/assets/3D/planes.glb', function(gltf) {
+      // Utiliser venue3D.glb
+      loader.load('/assets/3D/venue3D.glb', function(gltf) {
+        // Centrer et scaler le modèle
+        const box = new THREE.Box3().setFromObject(gltf.scene);
+        const center = box.getCenter(new THREE.Vector3());
+        const size = box.getSize(new THREE.Vector3());
+        
+        const maxDim = Math.max(size.x, size.y, size.z);
+        const scale = 4 / maxDim;
+        gltf.scene.scale.multiplyScalar(scale);
+        gltf.scene.position.sub(center.multiplyScalar(scale));
+        
         scene.add(gltf.scene);
-        console.log('Modèle 3D chargé');
+        console.log('Modèle 3D venue3D.glb chargé');
       }, undefined, function(error) {
         console.error('Erreur chargement 3D:', error);
+        // Fallback vers planes.glb si venue3D.glb n'existe pas
+        loader.load('/assets/3D/planes.glb', function(gltf) {
+          scene.add(gltf.scene);
+          console.log('Modèle 3D planes.glb chargé (fallback)');
+        });
       });
       
       function animate() {

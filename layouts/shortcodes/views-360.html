@@ -94,7 +94,7 @@
   function loadModel() {
     if (!T.GLTFLoader) { console.warn('GLTFLoader non disponible'); return; }
     var loader = new T.GLTFLoader();
-    loader.load('/assets/3D/planes.glb', function(gltf) {
+    loader.load('/assets/3D/model3D.glb', function(gltf) {
       var box = new T.Box3().setFromObject(gltf.scene);
       var center = box.getCenter(new T.Vector3());
       var size = box.getSize(new T.Vector3());

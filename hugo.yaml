@@ -23,7 +23,11 @@ theme: hextra
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: /assets/img/les-champs-libres.png
+      link: https://www.leschampslibres.fr/
+      width: 120
     width: wide
 
   page:
@@ -40,6 +44,11 @@ params:
 
   sidebar:
     hide: false
+    compact: false
+
+  toc:
+    enable: true
+    depth: 3
 
   highlight:
     copy:
@@ -48,6 +57,13 @@ params:
   search:
     enable: true
     type: flexsearch
+
+  displayCopyright: false
+  displayUpdatedDate: false
+  displayPublishedDate: false
+
+  editURL:
+    enable: false
 
 menu:
   main:
@@ -78,3 +94,4 @@ menu:
       weight: 100
       params:
         type: external
+        icon: external-link

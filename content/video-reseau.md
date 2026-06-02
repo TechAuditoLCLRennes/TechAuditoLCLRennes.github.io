@@ -13,11 +13,9 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | taille max (écran au sol) + balcon 16/9 | 4,20m | 7,50m |
 | taille écran à 1,80 du sol + balcon 16/9 | 2,75m | 4,90m |
 
----
-
-### DISTANCE Vidéoprojecteur → Écran: 19,0m
-
----
+{{< callout type="info" >}}
+Distance Vidéoprojecteur → Écran : **19,0 m**
+{{< /callout >}}
 
 ## Parc Matériel Vidéo
 
@@ -111,12 +109,14 @@ Un réseau d'accueil composé de 3 switchs SG350 CISCO est également disponible
 
 ## Formats de fichiers pour projection de films
 
-Nous utilisons [EDIUS](https://www.edius.fr/) pour la projection
+Nous utilisons [EDIUS](https://www.edius.fr/) pour la projection.
 
-Merci de fournir des fichiers au format ProRes de la meilleure qualité possible ou un DCP non crypté que nous pourrons convertir à ce format.
-Dans l'idéal, un format 1080p25
+{{< callout type="warning" >}}
+Format recommandé : **ProRes, meilleure qualité possible**, ou DCP non crypté. Idéalement **1080p25**.
+{{< /callout >}}
 
-D'autres formats de compression peuvent être utilisés, sans garantie sur la qualité de la diffusion due aux artefacts de compression et aux réglages du videoprojecteur.
-Voici la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf)
+D'autres formats de compression peuvent être utilisés, sans garantie sur la qualité de la diffusion due aux artefacts de compression et aux réglages du vidéoprojecteur. Voir la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf).
 
-Accessibilité : Il est possible d'intégrer des sous-titres CC ou SDH et/ou une bande-son en audiodescription pour la boucle sonore de la salle.
+{{< callout type="info" >}}
+**Accessibilité** : il est possible d'intégrer des sous-titres CC ou SDH et/ou une bande-son en audiodescription pour la boucle sonore de la salle.
+{{< /callout >}}

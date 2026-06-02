@@ -18,6 +18,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 
 ### Micros & DI
 
+{{< columns >}}
+{{< col >}}
 #### DI & Cartes son
 
 | Type | Quantité |
@@ -30,6 +32,17 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | DI AVALON U5 | 1 |
 | DI Rupert Neve RNDI | 4 |
 | Carte Son FOCUSRITE Scarlett 2i2 | 2 |
+{{< /col >}}
+{{< col >}}
+#### Micros HF (sans fil)
+
+| Type | Quantité |
+|------|----------|
+| Micro HF Main Axient ADX2 + Capsule KSM9 Shure | 8 |
+| Émetteur Pocket Axient ADX1 Shure | 4 |
+| Micro DPA 6066 D:fine | 4 |
+{{< /col >}}
+{{< /columns >}}
 
 #### Micros filaires
 
@@ -58,14 +71,6 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Micro DPA 4099 | 4 |
 | Micro DPA 4098-BX30 | 4 |
 | Micro DPA 4011F45 | 2 |
-
-#### Micros HF (sans fil)
-
-| Type | Quantité |
-|------|----------|
-| Micro HF Main Axient ADX2 + Capsule KSM9 Shure | 8 |
-| Émetteur Pocket Axient ADX1 Shure | 4 |
-| Micro DPA 6066 D:fine | 4 |
 
 ### Retours & Pieds de Micro
 

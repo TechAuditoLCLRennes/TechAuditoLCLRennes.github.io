@@ -58,7 +58,7 @@ params:
     type: flexsearch
 
   displayCopyright: false
-  displayUpdatedDate: false
+  displayUpdatedDate: true
   displayPublishedDate: false
 
   editURL:

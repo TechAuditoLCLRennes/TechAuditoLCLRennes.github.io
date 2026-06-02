@@ -13,7 +13,8 @@
   background: transparent !important;
   border: 1px solid rgba(150, 150, 150, 0.2);
   padding: 0 !important;
-  margin-top: 0.25rem !important;
+  margin: 0.25rem 0.5rem 0.5rem 0.5rem !important;
+  width: calc(100% - 1rem);
 }
 
 .content details summary {
@@ -28,9 +29,9 @@
 
 /* Amélioration des tableaux */
 .content table {
-  width: 100%;
+  width: calc(100% - 1rem);
   border-collapse: collapse;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0.5rem 1rem 0.5rem;
   font-size: 0.9rem;
 }
 
@@ -46,6 +47,11 @@
   padding: 0.4rem 0.75rem;
   border: 1px solid rgba(150, 150, 150, 0.2);
   vertical-align: top;
+}
+
+.content table th:last-child,
+.content table td:last-child {
+  text-align: center;
 }
 
 /* Layout 2 colonnes */

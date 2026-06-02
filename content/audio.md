@@ -48,7 +48,7 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 {{< col >}}
 #### Micros filaires
 
-{{% details title="SHURE" %}}
+{{% details title="SHURE" closed="true" %}}
 | Type | Quantité |
 |------|----------|
 | SM57LC | 5 |

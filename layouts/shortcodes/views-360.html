@@ -125,7 +125,10 @@
   if (T.OrbitControls) {
     controls = new T.OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
-    controls.dampingFactor = 0.05;
+    controls.dampingFactor = 0.08;
+    controls.rotateSpeed = 0.5;
+    controls.zoomSpeed = 0.7;
+    controls.panSpeed = 0.5;
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.15;
     controls.minDistance = 2;
@@ -186,7 +189,10 @@
   s1.onload = function() {
     controls = new T.OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
-    controls.dampingFactor = 0.05;
+    controls.dampingFactor = 0.08;
+    controls.rotateSpeed = 0.5;
+    controls.zoomSpeed = 0.7;
+    controls.panSpeed = 0.5;
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.15;
     controls.minDistance = 2;

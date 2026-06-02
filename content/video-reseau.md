@@ -39,7 +39,7 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Type | Quantité |
 |------|----------|
 | Lecteur multimédia avec accessoires et système EDIUS X | 1 |
-| Carte de diffusion Grass Valley Storm 3G | 1 |
+| Carte de diffusion AJA KONA 4K | 1 |
 
 **Vidéoprojecteur**
 | Type | Quantité |
@@ -50,7 +50,6 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 **Mélangeurs**
 | Type | Quantité |
 |------|----------|
-| Mélangeur vidéo compatible HD EIKOS EKS 500 | 1 |
 | Mélangeur vidéo compatible 4K EIKOS EKS-4K | 1 |
 | Mélangeur vidéo ATEM 4K Black magic Design | 1 |
 
@@ -65,17 +64,17 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 {{< /col >}}
 {{< /columns >}}
 
-### Écrans / moniteurs
+### Écrans
 
 | Type | Quantité |
 |------|----------|
-| Moniteur JVC DT 17L4 pour "Preview" vidéo | 1 |
-| Moniteur JVC DT 21L4 pour "Main" vidéo | 1 |
-| Moniteur EIZO S22 43W pour lecteur multimédia | 1 |
-| Moniteur pro JVC DT-R24L41D 24" full HD | 2 |
+| Écran JVC DT 17L4 "Preview" vidéo | 1 |
+| Écran JVC DT 21L4 "Main" vidéo | 1 |
+| Écran EIZO S22 43W pour lecteur multimédia | 1 |
+| Écran JVC DT-R24L41D 24" full HD | 2 |
 | Écran Liliput 4k | 2 |
 | Écran SWIT 8,9" S-1092H | 1 |
-| Double écran rackable SmartView DUO Black magic design | 1 |
+| Double écran rackable SmartView DUO Blackmagic Design | 1 |
 | Écran Iiyama Prolite XB2483HSU | 1 |
 
 ### Pieds & Divers
@@ -104,7 +103,6 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Infinity ALIF1000R (RX+TX) | 1 |
 | ROI DVI/HDMI to SDI AJA | 2 |
 | Model HI5 HD-SDI/HDMI to HDMI AJA | 2 |
-| Skype Newtek Talkshow VS-100 + Clavier | 1 |
 | lcd elgato | - |
 {{< /col >}}
 {{< /columns >}}

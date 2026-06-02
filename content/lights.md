@@ -19,24 +19,41 @@ Saison 2025-26 — Console GrandMA3 Compact XT, parc AYRTON, 48 circuits DIGIPAC
 
 ### Projecteurs
 
+#### Conventionnels halogène
+
 | Type | Quantité |
 |------|----------|
 | PAR 64 | 12 |
+| PC RJ 1000W 306 LPC | 8 |
+| Horizoïdes Asymétriques 1000W YC ACCESS | 20 |
+
+#### Découpes LED
+
+| Type | Quantité |
+|------|----------|
 | Découpe RJ 614 SX (trappe Sully Blanc Chaud) | 16 |
 | Découpe RJ 613 SX (trappe Sully Blanc Chaud) | 4 |
 | Découpe RJ 653 SX 4C | 4 |
 | Découpe RJ 714 SX (lanterne BIZET Blanc variable) | 3 |
-| PC RJ 1000W 306 LPC | 8 |
 | Découpe ETC ColorSource Spot JR | 8 |
-| Horizoïdes Asymétriques 1000W YC ACCESS | 20 |
+| Découpe Led 75w 25/45° RVE | 6 |
+
+#### LED wash / cyclo / effets
+
+| Type | Quantité |
+|------|----------|
 | Projecteur LED AYRTON Colorsun 200 S | 12 |
 | Projecteur Led Wash AYRTON Nandobeam S6 | 6 |
-| Découpe Led 75w 25/45° RVE | 6 |
-| Lyre Asservie AYRTON Mistral | 8 |
-| Lyre Asservie AYRTON Diablo | 6 |
 | Blinders Leds CHAUVET - Shocker P2 | 6 |
 | Rampe SHOWTEC Funstrip | 12 |
 | Lot De 8 Rampes LED SHOWTEC Octostrip + Boîtiers De Commande | 2 |
+
+#### Lyres asservies
+
+| Type | Quantité |
+|------|----------|
+| Lyre Asservie AYRTON Mistral | 8 |
+| Lyre Asservie AYRTON Diablo | 6 |
 
 ### Consoles & Divers
 

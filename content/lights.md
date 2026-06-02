@@ -4,7 +4,7 @@ description: "Équipements lumière de l'Auditorium des Champs Libres - Console 
 ---
 
 {{< callout type="info" >}}
-Saison 2025-26 — Console GrandMA3 Compact XT, parc AYRTON, 48 circuits DIGIPACK
+Console **GrandMA3 Compact XT** sur **3 univers DMX** — 2 univers dédiés à la lumière scénique, 1 univers pour la lumière salle. 48 circuits gradateurs **DIGIPACK**, 24 lignes directes 16Acommandables par DMX.
 {{< /callout >}}
 
 {{< cards cols="3" >}}
@@ -85,6 +85,7 @@ Saison 2025-26 — Console GrandMA3 Compact XT, parc AYRTON, 48 circuits DIGIPAC
 | Récepteur DMX/RDM Lumen Radio | 1 |
 | Émetteur/récepteur DMX/RDM/Ethernet Lumen Radio | 1 |
 | Mergeur LUMINEX | 1 |
+| Node Luminex Luminode 4 | 1 |
 | Machine À Brouillard MDG ATMe + Bouteille CO2 2,5m3 | 1 |
 {{< /col >}}
 {{< /columns >}}

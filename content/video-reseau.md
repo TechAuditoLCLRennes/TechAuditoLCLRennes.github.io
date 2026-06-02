@@ -8,7 +8,9 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 {{< /callout >}}
 
 {{< callout type="info" >}}
-**Réseau** — Architecture fibre optique via 3 × [Frames Mediornet MicronUHD RIEDEL](https://riedel.net). Réseau LAN dédié sur 10 switchs [Gigacore Luminex](https://luminex.be). Réseau d'accueil sur 3 switchs SG350 CISCO.
+**Réseau audiovisuel** — Architecture fibre optique via 3 × [Frames Mediornet MicronUHD RIEDEL](https://riedel.net)\
+**Réseau LAN dédié** — 10 switchs [Gigacore Luminex](https://luminex.be)\
+**Réseau d'accueil** — 3 switchs SG350 CISCO
 {{< /callout >}}
 
 {{< callout type="warning" >}}

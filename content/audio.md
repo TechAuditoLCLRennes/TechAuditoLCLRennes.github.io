@@ -75,7 +75,7 @@ La diffusion de façade est composée de **80 haut-parleurs [Amadeus](https://am
 |--------|------|----------|
 | AKG | C414 | 2 |
 | AKG | D12VR | 1 |
-| NEUMAN | KM 184 ST - Set | 1 |
+| NEUMAN | KM 184 ST - Set | 2 |
 | NEUMAN | KMS 105 | 2 |
 | BEYERDYNAMIC | M88TG | 1 |
 | AUDIO-TECHNICA | AT4033a | 1 |

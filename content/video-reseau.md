@@ -18,6 +18,12 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 **Accessibilité** : intégration possible de sous-titres CC/SDH et/ou audiodescription pour la boucle sonore de la salle.
 {{< /callout >}}
 
+{{< cards cols="3" >}}
+  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/Simulation Report.pdf" title="Simulation de projection" icon="document" subtitle="Digital Projection Titan 4K/UHD MLS" tag="PDF" tagColor="blue" >}}
+{{< /cards >}}
+
+---
+
 ## Tailles d'images
 
 | Configuration | Hauteur | Largeur |
@@ -48,10 +54,15 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 {{< /col >}}
 {{< col >}}
 **Mélangeurs**
-| Type | Quantité |
-|------|----------|
-| Mélangeur vidéo compatible 4K EIKOS EKS-4K | 1 |
-| Mélangeur vidéo ATEM 4K Black magic Design | 1 |
+| Type | Installation | Quantité |
+|------|-------------|----------|
+| Mélangeur vidéo 4K EIKOS EKS-4K | Fixe | 1 |
+| Mélangeur vidéo ATEM 4K Blackmagic Design | Mobile | 1 |
+
+{{< callout type="info" >}}
+**EIKOS EKS-4K** — installé en régie fixe.\
+**ATEM 4K** — disponible en configuration mobile.
+{{< /callout >}}
 
 **Caméras**
 | Type | Quantité |

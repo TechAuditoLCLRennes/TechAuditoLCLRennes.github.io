@@ -11,9 +11,14 @@ title: Plan d'accès
 {{< col >}}
 ### Transports en commun
 
-- **Métro** — Station *Charles de Gaulle* (ligne a)
-- **Bus** — Lignes 1, 3, 5, 57, 66 (arrêt *Les Champs Libres*)
-- **Parking** — Parking République (entrée rue d'Antrain)
+- **Métro ligne A** — Station *Gare* ou *Charles de Gaulle*
+- **Métro ligne B** — Station *Gare*
+- **Bus** — Lignes C1, C2 et 11 ([Réseau Star](https://www.star.fr/))
+- **Train** — [Gare de Rennes](https://www.garesetconnexions.sncf/fr/gares-services/rennes) à proximité
+- **Vélo** — Station Star *Les Champs Libres*
+- **Voiture** — [Parking Charles de Gaulle](https://www.c-park.fr/parking/parking-de-gaulle-gare/) (parkings relais gratuits sur présentation du ticket de métro)
+
+<small>Source : [leschampslibres.fr](https://www.leschampslibres.fr/venir/informations-pratiques#comment-venir)</small>
 {{< /col >}}
 {{< col >}}
 ### Accès technique / livraison

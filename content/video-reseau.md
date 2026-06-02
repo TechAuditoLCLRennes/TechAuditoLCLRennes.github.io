@@ -39,6 +39,7 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 |------|----------|
 | Lecteur multimédia avec accessoires et système EDIUS X | 1 |
 | Carte de diffusion AJA KONA 4K | 1 |
+| PC pour présentation avec déport KVM au plateau | 1 |
 
 **Vidéoprojecteur**
 | Type | Quantité |
@@ -52,7 +53,7 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Mélangeur vidéo compatible 4K EIKOS EKS-4K | 1 |
 | Mélangeur vidéo ATEM 4K Black magic Design | 1 |
 
-**Caméra**
+**Caméras**
 | Type | Quantité |
 |------|----------|
 | Caméra Paluche AG-HCK 10G | 1 |
@@ -60,6 +61,13 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Lentille de conversion téléobjectif T4314HE K | 1 |
 | Convertisseur Gd Angle X 0,7 W4307 HPP K | 1 |
 | Rotule pour cam Paluche | 1 |
+| Blackmagic microstudio camera 12G | 1 |
+| Objectif lumix 45-175 MFT | 1 |
+
+{{< callout type="info" >}}
+**AG-HCK 10G** — POVCAM (tête de caméra compacte montable), associée à l'enregistreur AG-HMR10 via câble déporté.\
+**Blackmagic Microstudio 12G** — installée en fixe dans les cintres côté jardin, au-dessus de la scène.
+{{< /callout >}}
 {{< /col >}}
 {{< /columns >}}
 

@@ -69,7 +69,7 @@ Auditorium des Champs Libres — 348 places, scène 16×7m, équipements techniq
 
 {{< cards >}}
   {{< card link="/lights" title="Lumière" icon="light-bulb" subtitle="GrandMA3, AYRTON, 48 circuits DIGIPACK" >}}
-  {{< card link="/audio" title="Audio" icon="musical-note" subtitle="LAWO MC²36, HOLOPHONIX, 80 HP Amadeus" >}}
+  {{< card link="/audio" title="Audio" icon="music-note" subtitle="LAWO MC²36, HOLOPHONIX, 80 HP Amadeus" >}}
   {{< card link="/video-reseau" title="Vidéo / Réseau" icon="video-camera" subtitle="4K 20 000lm, Riedel MicronUHD, Luminex" >}}
   {{< card link="/views" title="Vues 360°" icon="eye" subtitle="Visites virtuelles de l'auditorium" >}}
 {{< /cards >}}

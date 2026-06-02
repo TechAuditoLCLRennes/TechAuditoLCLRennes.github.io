@@ -48,31 +48,48 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 {{< col >}}
 #### Micros filaires
 
+{{% details title="SHURE" %}}
 | Type | Quantité |
 |------|----------|
-| Micro SHURE SM57LC | 5 |
-| Micro SHURE SM58LC | 5 |
-| Micro SHURE SM81LC | 4 |
-| Micro SHURE Beta 52A | 1 |
-| Micro SHURE Beta 58 | 1 |
-| Micro SHURE Beta 87 C | 1 |
-| Micro SHURE Beta 91 | 1 |
-| Micro SHURE Beta 98 | 2 |
-| Capsule SHURE Beta 98 RPM108 | 4 |
-| Micro SENNHEISER MD421U4 | 2 |
-| Micro SENNHEISER E604 | 3 |
-| Micro SENNHEISER E608 | 2 |
-| Micro SENNHEISER E 906 | 1 |
-| Micro AKG C414 | 2 |
-| Micro AKG D12VR | 1 |
-| Micro NEUMAN KM 184 ST - Set | 1 |
-| Micro NEUMAN KMS 105 | 2 |
-| Micro BEYERDYNAMIC M88TG | 1 |
-| Micro AUDIO-TECHNICA AT4033a | 1 |
-| Micro ELECTROVOICE RE20 | 1 |
-| Micro DPA 4099 | 4 |
-| Micro DPA 4098-BX30 | 4 |
-| Micro DPA 4011F45 | 2 |
+| SM57LC | 5 |
+| SM58LC | 5 |
+| SM81LC | 4 |
+| Beta 52A | 1 |
+| Beta 58 | 1 |
+| Beta 87 C | 1 |
+| Beta 91 | 1 |
+| Beta 98 | 2 |
+| Capsule Beta 98 RPM108 | 4 |
+{{% /details %}}
+
+{{% details title="SENNHEISER" closed="true" %}}
+| Type | Quantité |
+|------|----------|
+| MD421U4 | 2 |
+| E604 | 3 |
+| E608 | 2 |
+| E 906 | 1 |
+{{% /details %}}
+
+{{% details title="DPA" closed="true" %}}
+| Type | Quantité |
+|------|----------|
+| 4099 | 4 |
+| 4098-BX30 | 4 |
+| 4011F45 | 2 |
+{{% /details %}}
+
+{{% details title="Autres" closed="true" %}}
+| Marque | Type | Quantité |
+|--------|------|----------|
+| AKG | C414 | 2 |
+| AKG | D12VR | 1 |
+| NEUMAN | KM 184 ST - Set | 1 |
+| NEUMAN | KMS 105 | 2 |
+| BEYERDYNAMIC | M88TG | 1 |
+| AUDIO-TECHNICA | AT4033a | 1 |
+| ELECTROVOICE | RE20 | 1 |
+{{% /details %}}
 {{< /col >}}
 {{< col >}}
 #### Pieds de Micro

@@ -35,7 +35,7 @@ Saison 2025-26 — Console GrandMA3 Compact XT, parc AYRTON, 48 circuits DIGIPAC
 | Type | Quantité |
 |------|----------|
 | Lyre Asservie AYRTON Mistral | 8 |
-| Lyre Asservie AYRTON Diablo | 6 |
+| Lyre Asservie AYRTON Diablo | 8 |
 {{< /col >}}
 {{< /columns >}}
 
@@ -46,7 +46,7 @@ Saison 2025-26 — Console GrandMA3 Compact XT, parc AYRTON, 48 circuits DIGIPAC
 | Type | Quantité |
 |------|----------|
 | Découpe RJ 614 SX (trappe Sully Blanc Chaud) | 16 |
-| Découpe RJ 613 SX (trappe Sully Blanc Chaud) | 4 |
+| Découpe RJ 613 SX (trappe Sully Blanc Chaud) | 5 |
 | Découpe RJ 653 SX 4C | 4 |
 | Découpe RJ 714 SX (lanterne BIZET Blanc variable) | 3 |
 | Découpe ETC ColorSource Spot JR | 8 |

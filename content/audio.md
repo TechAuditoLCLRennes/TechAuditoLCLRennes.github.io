@@ -44,6 +44,8 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 {{< /col >}}
 {{< /columns >}}
 
+{{< columns >}}
+{{< col >}}
 #### Micros filaires
 
 | Type | Quantité |
@@ -71,21 +73,10 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 | Micro DPA 4099 | 4 |
 | Micro DPA 4098-BX30 | 4 |
 | Micro DPA 4011F45 | 2 |
-
-### Retours & Pieds de Micro
-
-{{< columns >}}
-{{< col >}}
-**Retours**
-| Type | Quantité |
-|------|----------|
-| Enceinte C12R Amadeus | 6 |
-| Enceinte C.HEIL Coax MTD112B | 4 |
-| Enceinte C8R Amadeus | 6 |
-| Caisson Grave Amadeus ML15 | 1 |
 {{< /col >}}
 {{< col >}}
-**Pieds de Micro**
+#### Pieds de Micro
+
 | Type | Quantité |
 |------|----------|
 | Pied Micro Grand Noir K&M 210 9B | 12 |
@@ -96,28 +87,48 @@ par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
 
 ### Enceintes
 
-#### Façade
-
+{{< columns >}}
+{{< col >}}
+**Diffusion salle (fixe)**
 | Type | Quantité |
 |------|----------|
 | Enceinte UDX 12 Amadeus | 16 |
 | Enceinte UDX 8 Amadeus | 16 |
 | Enceinte PMX 4 Amadeus | 24 |
+| Enceinte ABB15 Amadeus | 8 |
+| Rampe D'Enceinte Amadeus | 12 |
+{{< /col >}}
+{{< col >}}
+**Retours**
+| Type | Quantité |
+|------|----------|
+| Enceinte C12R Amadeus | 6 |
+| Enceinte C8R Amadeus | 6 |
+| Enceinte C.HEIL Coax MTD112B | 4 |
+{{< /col >}}
+{{< /columns >}}
+
+{{< columns >}}
+{{< col >}}
+**Installations mobiles**
+| Type | Quantité |
+|------|----------|
+| Caisson Grave Amadeus ML15 | 1 |
 | Enceinte PMX5 MKIII Amadeus Passive | 8 |
 | Enceinte PMX12 Amadeus | 2 |
-| Enceinte ABB15 Amadeus | 4 |
-| Rampe D'Enceinte Amadeus | 12 |
 | Caisson Grave ML12 Amadeus | 2 |
 | Enceinte Façade C.HEIL Coax MTD115B | 4 |
 | Enceinte Façade C.HEIL Coax MTD108B | 5 |
 | Renfort De Grave C.HEIL SB118 | 2 |
 | Caisson Grave C. Heil SP15P | 1 |
-
-#### Régie
-
+{{< /col >}}
+{{< col >}}
+**Régie**
 | Type | Quantité |
 |------|----------|
 | Enceinte Amplifiée GENELEC 8030 | 4 |
+{{< /col >}}
+{{< /columns >}}
 
 ### Processeur & Console
 

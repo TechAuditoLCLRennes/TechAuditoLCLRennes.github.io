@@ -2,4 +2,6 @@
 title: À propos
 ---
 
-📧 Email: [d.seignard@leschampslibres.fr](mailto:d.seignard@leschampslibres.fr)
+{{< callout type="info" >}}
+Pour contacter l'équipe technique, consultez la page [Contacts](/contact).
+{{< /callout >}}

@@ -3,11 +3,15 @@ title: Lumière
 description: "Équipements lumière de l'Auditorium des Champs Libres - Console GrandMA3, projecteurs AYRTON, parc DMX complet avec plans de feux et patchs"
 ---
 
-[PLAN DE FEUX](/assets/pdf/25-26/Plan_de_feu_et_patch/LCL_Plan_de_feu_Accueil_2025_26.pdf)
+{{< callout type="info" >}}
+Saison 2025-26 — Console GrandMA3 Compact XT, parc AYRTON, 48 circuits DIGIPACK
+{{< /callout >}}
 
-[PATCH](/assets/pdf/25-26/Plan_de_feu_et_patch/Patch_DMX_LCL_2025-26.pdf)
-
-[INFO CIRCUITS ALIMENTATION](/assets/pdf/25-26/Infos_Circuits_Alimentation.pdf)
+{{< cards cols="3" >}}
+  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/LCL_Plan_de_feu_Accueil_2025_26.pdf" title="Plan de Feux" icon="document" subtitle="Saison 2025-26" tag="PDF" tagColor="blue" >}}
+  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/Patch_DMX_LCL_2025-26.pdf" title="Patch DMX" icon="document" subtitle="Saison 2025-26" tag="PDF" tagColor="blue" >}}
+  {{< card link="/assets/pdf/25-26/Infos_Circuits_Alimentation.pdf" title="Info Circuits Alimentation" icon="document" subtitle="Saison 2025-26" tag="PDF" tagColor="blue" >}}
+{{< /cards >}}
 
 ---
 

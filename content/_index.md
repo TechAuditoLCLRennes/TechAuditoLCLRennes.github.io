@@ -3,13 +3,21 @@ title: Description
 description: "Auditorium des Champs Libres Rennes - 348 places, dimensions scène 16x7m, équipements techniques complets pour spectacles et événements"
 ---
 
+{{< callout type="info" >}}
+Auditorium des Champs Libres — 348 places, scène 16×7m, équipements techniques complets
+{{< /callout >}}
+
+{{< cards cols="1" >}}
+  {{< card link="/assets/pdf/LCL_cotes.pdf" title="Plan de cotes de la scène" icon="document" tag="PDF" tagColor="blue" >}}
+{{< /cards >}}
+
 ### Jauge
 
 - 348 places + 102 places balcons numérotées
 
 ---
 
-### Dimensions Cage de scène (cf. [cotes](/assets/pdf/LCL_cotes.pdf))
+### Dimensions Cage de scène
 
 - Largeur: 16,00 m
 

@@ -3,6 +3,10 @@ title: Audio
 description: "Équipements audio de l'Auditorium des Champs Libres - Système HOLOPHONIX 80 HP Amadeus, parc matériel complet avec micros, consoles et processeurs"
 ---
 
+{{< callout type="info" >}}
+Saison 2025-26 — Console LAWO MC²36, spatialisation HOLOPHONIX 128 I/O, 80 HP Amadeus, micros HF Shure Axient
+{{< /callout >}}
+
 ## Diffusion
 
 La diffusion de Façade est composée de 80 Haut-Parleurs [Amadeus](https://amadeuslab.com) gérés  

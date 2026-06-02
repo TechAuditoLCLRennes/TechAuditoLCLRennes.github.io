@@ -3,6 +3,22 @@ title: Vidéo/Réseau
 description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres - Vidéoprojecteur 4K 20 000 lumens, mélangeurs, caméras et infrastructure réseau complète"
 ---
 
+{{< callout type="info" >}}
+Distance Vidéoprojecteur → Écran : **19,0 m**
+{{< /callout >}}
+
+{{< callout type="info" >}}
+**Réseau** — Architecture fibre optique via 3 × [Frames Mediornet MicronUHD RIEDEL](https://riedel.net). Réseau LAN dédié sur 10 switchs [Gigacore Luminex](https://luminex.be). Réseau d'accueil sur 3 switchs SG350 CISCO.
+{{< /callout >}}
+
+{{< callout type="warning" >}}
+**Format recommandé pour projection** : ProRes meilleure qualité, ou DCP non crypté — idéalement **1080p25**. Logiciel de projection : [EDIUS](https://www.edius.fr/). Voir la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf).
+{{< /callout >}}
+
+{{< callout type="info" >}}
+**Accessibilité** : intégration possible de sous-titres CC/SDH et/ou audiodescription pour la boucle sonore de la salle.
+{{< /callout >}}
+
 ## Tailles d'images
 
 | Configuration | Hauteur | Largeur |
@@ -12,10 +28,6 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 | taille écran à 1,80 du sol sans balcon 16/9 | 3,45m | 6,10m |
 | taille max (écran au sol) + balcon 16/9 | 4,20m | 7,50m |
 | taille écran à 1,80 du sol + balcon 16/9 | 2,75m | 4,90m |
-
-{{< callout type="info" >}}
-Distance Vidéoprojecteur → Écran : **19,0 m**
-{{< /callout >}}
 
 ## Parc Matériel Vidéo
 
@@ -97,26 +109,3 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 {{< /col >}}
 {{< /columns >}}
 
----
-
-## Réseau
-
-Le réseau audiovisuel est basé sur une architecture fibre optique servie par 3 X [Frames Mediornet MicronUHD RIEDEL](https://riedel.net).  
-Le réseau LAN dédié est servi par 10 switchs [Gigacore Luminex](https://luminex.be).  
-Un réseau d'accueil composé de 3 switchs SG350 CISCO est également disponible.
-
----
-
-## Formats de fichiers pour projection de films
-
-Nous utilisons [EDIUS](https://www.edius.fr/) pour la projection.
-
-{{< callout type="warning" >}}
-Format recommandé : **ProRes, meilleure qualité possible**, ou DCP non crypté. Idéalement **1080p25**.
-{{< /callout >}}
-
-D'autres formats de compression peuvent être utilisés, sans garantie sur la qualité de la diffusion due aux artefacts de compression et aux réglages du vidéoprojecteur. Voir la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf).
-
-{{< callout type="info" >}}
-**Accessibilité** : il est possible d'intégrer des sous-titres CC ou SDH et/ou une bande-son en audiodescription pour la boucle sonore de la salle.
-{{< /callout >}}

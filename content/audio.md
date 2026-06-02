@@ -4,15 +4,8 @@ description: "Équipements audio de l'Auditorium des Champs Libres - Système HO
 ---
 
 {{< callout type="info" >}}
-Saison 2025-26 — Console LAWO MC²36, spatialisation HOLOPHONIX 128 I/O, 80 HP Amadeus, micros HF Shure Axient
+La diffusion de façade est composée de **80 haut-parleurs [Amadeus](https://amadeuslab.com)** gérés par le processeur de spatialisation **[HOLOPHONIX](https://holophonix.xyz)**.
 {{< /callout >}}
-
-## Diffusion
-
-La diffusion de Façade est composée de 80 Haut-Parleurs [Amadeus](https://amadeuslab.com) gérés  
-par processeur audio de spatialisation [HOLOPHONIX](https://holophonix.xyz).
-
----
 
 ## Parc Matériel
 

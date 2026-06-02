@@ -4,20 +4,18 @@ description: "Auditorium des Champs Libres Rennes - 348 places, dimensions scèn
 ---
 
 {{< callout type="info" >}}
-Auditorium des Champs Libres — 348 places, scène 16×7m, équipements techniques complets
+**348 places** (+ 102 balcons numérotées) — Scène **16,00 × 7,00 m**, hauteur sous gril **7,60 m**, ouverture au manteau **10,60 × 5,45 m**
 {{< /callout >}}
 
 {{< cards cols="1" >}}
   {{< card link="/assets/pdf/LCL_cotes.pdf" title="Plan de cotes de la scène" icon="document" tag="PDF" tagColor="blue" >}}
 {{< /cards >}}
 
-### Jauge
-
-- 348 places + 102 places balcons numérotées
-
 ---
 
-### Dimensions Cage de scène
+{{< columns >}}
+{{< col >}}
+### Dimensions cage de scène
 
 | | |
 |---|---|
@@ -26,42 +24,38 @@ Auditorium des Champs Libres — 348 places, scène 16×7m, équipements techniq
 | Hauteur sous gril | 7,60 m |
 | Hauteur hors-tout | 9,10 m |
 | Ouverture au manteau | 10,60 m × 5,45 m |
-
----
-
-{{< columns >}}
-{{< col >}}
-### Équipements scéniques/machinerie
-
-- 10 équipes motorisées + 3 jeux de pendrillons + une patience manuelle avec frise
-- 1 perche fixe nez de balcon (au-dessus de la régie technique)
-- 1 passerelle technique milieu de salle équipée d'une perche fixe
-- 1 écran polichinelle en fond de scène
-- 1 patience motorisée équipée d'un rideau de scène
-- 2 passerelles techniques latérales
 {{< /col >}}
 {{< col >}}
-### Équipement plateau
+### Équipements scéniques
 
-- 10 praticables 2,00m × 1,00m modulables de 0,20m à 1,00m de hauteur
-- 2 escaliers modulables par 0,20m
-- 2 praticables 1,00m × 1,00m modulables
-- 1 tapis de danse noir
-- 8 chauffeuses cuir noires
-- tables basses
-- 1 nacelle motorisée Génie AWP-25S (hauteur de travail : 7,50m)
+- 10 équipes motorisées + 3 jeux de pendrillons + patience manuelle avec frise
+- 1 perche fixe nez de balcon (au-dessus de la régie technique)
+- 1 passerelle technique milieu de salle avec perche fixe
+- 1 écran polichinelle en fond de scène
+- 1 patience motorisée avec rideau de scène
+- 2 passerelles techniques latérales
 {{< /col >}}
 {{< /columns >}}
 
----
+{{< columns >}}
+{{< col >}}
+### Équipement plateau
 
+- 10 praticables 2,00 × 1,00 m, modulables de 0,20 m à 1,00 m
+- 2 escaliers modulables par 0,20 m
+- 2 praticables 1,00 × 1,00 m
+- 1 tapis de danse noir
+- 8 chauffeuses cuir noires + tables basses
+- 1 nacelle motorisée Génie AWP-25S (hauteur de travail : 7,50 m)
+{{< /col >}}
+{{< col >}}
 ### Régies techniques
 
-- 1 régie lumière/son/vidéo recevant les réseaux courants faibles
-
-- 1 régie nodale (recevant une partie des réseaux courants faibles pour captation)
-
-- possibilité de déport de la régie en salle pour concert
+- 1 régie lumière/son/vidéo (réseaux courants faibles)
+- 1 régie nodale (captation, partie des réseaux courants faibles)
+- Déport de régie en salle possible pour concert
+{{< /col >}}
+{{< /columns >}}
 
 ---
 

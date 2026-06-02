@@ -8,6 +8,24 @@
   max-width: 1600px !important;
 }
 
+/* Sections dépliantes : fond transparent pour s'intégrer aux tableaux */
+.content details {
+  background: transparent !important;
+  border: 1px solid rgba(150, 150, 150, 0.2);
+  padding: 0 !important;
+  margin-top: 0.25rem !important;
+}
+
+.content details summary {
+  padding: 0.4rem 0.75rem !important;
+  background-color: rgba(100, 100, 100, 0.15);
+  border-radius: 0;
+}
+
+.content details > div {
+  padding: 0 !important;
+}
+
 /* Amélioration des tableaux */
 .content table {
   width: 100%;

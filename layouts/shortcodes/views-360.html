@@ -1,15 +1,4 @@
 <style>
-.views-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  padding: 16px 0;
-}
-@media (max-width: 1000px) {
-  .views-grid {
-    grid-template-columns: 1fr;
-  }
-}
 .view-card {
   text-align: center;
 }
@@ -20,11 +9,28 @@
 }
 .view-canvas {
   width: 100%;
-  height: 320px;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #ddd;
   display: block;
+}
+.view-canvas-full {
+  height: 480px;
+  margin-bottom: 24px;
+}
+.views-pano-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  padding: 0;
+}
+.view-canvas-pano {
+  height: 300px;
+}
+@media (max-width: 800px) {
+  .view-canvas-full { height: 320px; }
+  .views-pano-grid { grid-template-columns: 1fr; }
+  .view-canvas-pano { height: 260px; }
 }
 #gltf-viewer {
   position: relative;
@@ -45,26 +51,21 @@
 }
 </style>
 
-<div class="views-grid">
+<div class="view-card">
+  <h4>Modèle 3D de l'Auditorium</h4>
+  <div id="gltf-viewer" class="view-canvas view-canvas-full">
+    <div id="gltf-loading">Chargement du modèle 3D…</div>
+  </div>
+</div>
+
+<div class="views-pano-grid">
   <div class="view-card">
-    <h4>Panorama 360° - Vue 1</h4>
-    <iframe src="/pano-viewer.html?cube=cube1" class="view-canvas" frameborder="0" allowfullscreen></iframe>
+    <h4>Panorama 360° — Vue 1</h4>
+    <iframe src="/pano-viewer.html?cube=cube1" class="view-canvas view-canvas-pano" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="view-card">
-    <h4>Panorama 360° - Vue 2</h4>
-    <iframe src="/pano-viewer.html?cube=cube2" class="view-canvas" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <div class="view-card">
-    <h4>Vue panoramique</h4>
-    <img class="view-canvas" style="object-fit: cover;"
-         src="/assets/img/pano1-1_stitch2.jpg"
-         alt="Vue panoramique de l'Auditorium des Champs Libres" />
-  </div>
-  <div class="view-card">
-    <h4>Modèle 3D de l'Auditorium</h4>
-    <div id="gltf-viewer" class="view-canvas">
-      <div id="gltf-loading">Chargement du modèle 3D…</div>
-    </div>
+    <h4>Panorama 360° — Vue 2</h4>
+    <iframe src="/pano-viewer.html?cube=cube2" class="view-canvas view-canvas-pano" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 

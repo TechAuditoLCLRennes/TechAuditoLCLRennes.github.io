@@ -7,8 +7,6 @@ description: "Équipements audio de l'Auditorium des Champs Libres - Système HO
 La diffusion de façade est composée de **80 haut-parleurs [Amadeus](https://amadeuslab.com)** gérés par le processeur de spatialisation **[HOLOPHONIX](https://holophonix.xyz)**.
 {{< /callout >}}
 
-## Parc Matériel
-
 ### Micros & DI
 
 {{< columns >}}

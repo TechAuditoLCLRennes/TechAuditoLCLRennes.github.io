@@ -49,12 +49,42 @@
   color: #888;
   pointer-events: none;
 }
+#gltf-fullscreen-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background 0.2s;
+}
+#gltf-fullscreen-btn:hover { background: rgba(0,0,0,0.7); }
+#gltf-viewer:fullscreen,
+#gltf-viewer:-webkit-full-screen {
+  width: 100vw !important;
+  height: 100vh !important;
+  border-radius: 0;
+  border: none;
+}
 </style>
 
 <div class="view-card">
   <h4>Modèle 3D de l'Auditorium</h4>
   <div id="gltf-viewer" class="view-canvas view-canvas-full">
     <div id="gltf-loading">Chargement du modèle 3D…</div>
+    <button id="gltf-fullscreen-btn" title="Plein écran">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+      Plein écran
+    </button>
   </div>
 </div>
 
@@ -91,7 +121,7 @@
   var w = container.clientWidth || 450;
   var h = container.clientHeight || 320;
   var camera = new T.PerspectiveCamera(45, w / h, 0.01, 1000);
-  camera.position.set(7, 4, 7);
+  camera.position.set(5, 3, 5);
 
   var renderer = new T.WebGLRenderer({ antialias: true, alpha: false });
   renderer.setSize(w, h);
@@ -181,6 +211,30 @@
   });
 
   animate();
+
+  // Bouton plein écran
+  var fsBtn = document.getElementById('gltf-fullscreen-btn');
+  if (fsBtn) {
+    fsBtn.addEventListener('click', function() {
+      var el = container;
+      if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        (el.requestFullscreen || el.webkitRequestFullscreen).call(el);
+      } else {
+        (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+      }
+    });
+    document.addEventListener('fullscreenchange', function() {
+      var inFS = !!document.fullscreenElement;
+      fsBtn.innerHTML = inFS
+        ? '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg> Quitter'
+        : '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg> Plein écran';
+      var nw = container.clientWidth;
+      var nh = container.clientHeight;
+      camera.aspect = nw / nh;
+      camera.updateProjectionMatrix();
+      renderer.setSize(nw, nh);
+    });
+  }
 
   // Charger OrbitControls et GLTFLoader locaux APRÈS que PANOLENS ait fini
   // Ils s'enregistrent dans THREE namespace

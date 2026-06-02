@@ -121,13 +121,13 @@ La diffusion de façade est composée de **80 haut-parleurs [Amadeus](https://am
 **Installations mobiles**
 | Type | Quantité |
 |------|----------|
-| Caisson Grave Amadeus ML15 | 1 |
 | Enceinte PMX5 MKIII Amadeus Passive | 8 |
 | Enceinte PMX12 Amadeus | 2 |
 | Caisson Grave ML12 Amadeus | 2 |
+| Caisson Grave Amadeus ML15 | 1 |
 | Enceinte C.HEIL Coax MTD115B | 4 |
 | Enceinte C.HEIL Coax MTD108B | 5 |
-| Renfort De Grave C.HEIL SB118 | 2 |
+| Caisson Grave C.HEIL SB118 | 2 |
 | Caisson Grave C.HEIL SP15P | 1 |
 {{< /col >}}
 {{< col >}}

@@ -123,12 +123,11 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | DVI Extender Blackmagic Design | 1 |
 | Boîtier émetteur/récepteur fibre / SDI AJA FIDO-TR | 4 |
 | Convertisseur Grass-Valley ADVC-G1 | 1 |
-| Distributeur Gefen EXT DVI 142DL | 1 |
-| DA2DVI-HDCP-Pro Lightware | 1 |
-| Infinity ALIF1000R (RX+TX) | 1 |
+| Convertisseur Decimator 12G cross | 1 |
+| Convertisseur SDI <--> fibre AJA FIDO-TR | 4 |
 | ROI DVI/HDMI to SDI AJA | 2 |
 | Model HI5 HD-SDI/HDMI to HDMI AJA | 2 |
-| LCD Elgato | - |
+| StreamDeck Elgato (modèles divers) | 5 |
 {{< /col >}}
 {{< /columns >}}
 

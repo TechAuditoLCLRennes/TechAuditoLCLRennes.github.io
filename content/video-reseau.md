@@ -24,19 +24,30 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 
 ---
 
-## Tailles d'images
+## Parc Matériel
 
+### Vidéoprojecteur & Tailles d'images
+
+{{< columns >}}
+{{< col >}}
+**Vidéoprojecteur**
+| Type | Quantité |
+|------|----------|
+| Digital Projection Titan 4K/UHD MLS 20 000 Lumens | 1 |
+{{< /col >}}
+{{< col >}}
+**Tailles d'images**
 | Configuration | Hauteur | Largeur |
 |---------------|---------|---------|
-| taille totale-toile écran | 7,6m | 10,6m |
-| taille max (écran au sol) sans balcon 16/9 | 4,20m | 7,50m |
-| taille écran à 1,80 du sol sans balcon 16/9 | 3,45m | 6,10m |
-| taille max (écran au sol) + balcon 16/9 | 4,20m | 7,50m |
-| taille écran à 1,80 du sol + balcon 16/9 | 2,75m | 4,90m |
+| Toile totale | 7,6m | 10,6m |
+| Max sans balcon 16/9 | 4,20m | 7,50m |
+| À 1,80m du sol sans balcon 16/9 | 3,45m | 6,10m |
+| Max avec balcon 16/9 | 4,20m | 7,50m |
+| À 1,80m du sol avec balcon 16/9 | 2,75m | 4,90m |
+{{< /col >}}
+{{< /columns >}}
 
-## Parc Matériel Vidéo
-
-### Lecteurs, Vidéoprojecteur, Mélangeurs & Caméra
+### Lecteurs & Mélangeurs
 
 {{< columns >}}
 {{< col >}}
@@ -46,11 +57,6 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Lecteur multimédia avec accessoires et système EDIUS X | 1 |
 | Carte de diffusion AJA KONA 4K | 1 |
 | PC pour présentation avec déport KVM au plateau | 1 |
-
-**Vidéoprojecteur**
-| Type | Quantité |
-|------|----------|
-| Digital Projection Titan 4K/UHD MLS 20 000 Lumens | 1 |
 {{< /col >}}
 {{< col >}}
 **Mélangeurs**
@@ -58,12 +64,13 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 |------|-------------|----------|
 | Mélangeur vidéo 4K EIKOS EKS-4K | Fixe | 1 |
 | Mélangeur vidéo ATEM 4K Blackmagic Design | Mobile | 1 |
+{{< /col >}}
+{{< /columns >}}
 
-{{< callout type="info" >}}
-**EIKOS EKS-4K** — installé en régie fixe.\
-**ATEM 4K** — disponible en configuration mobile.
-{{< /callout >}}
+### Caméras & Écrans
 
+{{< columns >}}
+{{< col >}}
 **Caméras**
 | Type | Quantité |
 |------|----------|
@@ -80,10 +87,8 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 **Blackmagic Microstudio 12G** — installée en fixe dans les cintres côté jardin, au-dessus de la scène.
 {{< /callout >}}
 {{< /col >}}
-{{< /columns >}}
-
-### Écrans
-
+{{< col >}}
+**Écrans**
 | Type | Quantité |
 |------|----------|
 | Écran JVC DT 17L4 "Preview" vidéo | 1 |
@@ -94,6 +99,8 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Écran SWIT 8,9" S-1092H | 1 |
 | Double écran rackable SmartView DUO Blackmagic Design | 1 |
 | Écran Iiyama Prolite XB2483HSU | 1 |
+{{< /col >}}
+{{< /columns >}}
 
 ### Pieds & Divers
 
@@ -114,14 +121,14 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Mini converter Blackmagic Design SDI to analog | 2 |
 | Mini converter Blackmagic Design Distrib SDI | 1 |
 | DVI Extender Blackmagic Design | 1 |
-| boîtier émetteur/récepteur fibre / SDI AJA FIDO-TR | 4 |
+| Boîtier émetteur/récepteur fibre / SDI AJA FIDO-TR | 4 |
 | Convertisseur Grass-Valley ADVC-G1 | 1 |
 | Distributeur Gefen EXT DVI 142DL | 1 |
 | DA2DVI-HDCP-Pro Lightware | 1 |
 | Infinity ALIF1000R (RX+TX) | 1 |
 | ROI DVI/HDMI to SDI AJA | 2 |
 | Model HI5 HD-SDI/HDMI to HDMI AJA | 2 |
-| lcd elgato | - |
+| LCD Elgato | - |
 {{< /col >}}
 {{< /columns >}}
 

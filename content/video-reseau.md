@@ -14,10 +14,7 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 {{< /callout >}}
 
 {{< callout type="warning" >}}
-**Format recommandé pour projection** : ProRes meilleure qualité, ou DCP non crypté — idéalement **1080p25**. Logiciel de projection : [EDIUS](https://www.edius.fr/). Voir la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf).
-{{< /callout >}}
-
-{{< callout type="info" >}}
+**Format recommandé pour projection** : ProRes meilleure qualité, ou DCP non crypté — idéalement **1080p25**. Logiciel de projection : [EDIUS](https://www.edius.fr/). Voir la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf).\
 **Accessibilité** : intégration possible de sous-titres CC/SDH et/ou audiodescription pour la boucle sonore de la salle.
 {{< /callout >}}
 

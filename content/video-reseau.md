@@ -4,10 +4,6 @@ description: "Équipements vidéo et réseau de l'Auditorium des Champs Libres -
 ---
 
 {{< callout type="info" >}}
-Distance Vidéoprojecteur → Écran : **19,0 m**
-{{< /callout >}}
-
-{{< callout type="info" >}}
 **Réseau audiovisuel** — Architecture fibre optique via 3 × [Frames Mediornet MicronUHD RIEDEL](https://riedel.net)\
 **Réseau LAN dédié** — 10 switchs [Gigacore Luminex](https://luminex.be)\
 **Réseau d'accueil** — 3 switchs SG350 CISCO
@@ -17,10 +13,6 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 **Format recommandé pour projection** : ProRes meilleure qualité, ou DCP non crypté — idéalement **1080p25**. Logiciel de projection : [EDIUS](https://www.edius.fr/). Voir la [liste des formats supportés](https://www.ediusworld.com/wp/wp-content/uploads/2023/10/EDIUS11FormatList-EN_0425-2024.pdf).\
 **Accessibilité** : intégration possible de sous-titres CC/SDH et/ou audiodescription pour la boucle sonore de la salle.
 {{< /callout >}}
-
-{{< cards cols="3" >}}
-  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/Simulation Report.pdf" title="Simulation de projection" icon="document" subtitle="Digital Projection Titan 4K/UHD MLS" tag="PDF" tagColor="blue" >}}
-{{< /cards >}}
 
 ---
 
@@ -34,6 +26,14 @@ Distance Vidéoprojecteur → Écran : **19,0 m**
 | Type | Quantité |
 |------|----------|
 | Digital Projection Titan 4K/UHD MLS 20 000 Lumens | 1 |
+
+{{< callout type="info" >}}
+Distance Vidéoprojecteur → Écran : **19,0 m**
+{{< /callout >}}
+
+{{< cards cols="1" >}}
+  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/Simulation Report.pdf" title="Simulation de projection" icon="document" subtitle="Digital Projection Titan 4K/UHD MLS" tag="PDF" tagColor="blue" >}}
+{{< /cards >}}
 {{< /col >}}
 {{< col >}}
 **Tailles d'images**

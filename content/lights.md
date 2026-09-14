@@ -8,9 +8,9 @@ Console **GrandMA3 Compact XT** sur **3 univers DMX** — 2 univers dédiés à 
 {{< /callout >}}
 
 {{< cards cols="3" >}}
-  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/LCL_Plan_de_feu_Accueil_2025_26.pdf" title="Plan de Feux" icon="document" subtitle="Saison 2025-26" tag="PDF" tagColor="blue" >}}
-  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/Patch_DMX_LCL_2025-26.pdf" title="Patch DMX" icon="document" subtitle="Saison 2025-26" tag="PDF" tagColor="blue" >}}
-  {{< card link="/assets/pdf/25-26/Infos_Circuits_Alimentation.pdf" title="Info Circuits Alimentation" icon="document" subtitle="Saison 2025-26" tag="PDF" tagColor="blue" >}}
+  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/LCL_Plan_de_feu_2026_27_accueil.pdf" title="Plan de Feux" icon="document" subtitle="Saison 2026*27" tag="PDF" tagColor="blue" >}}
+  {{< card link="/assets/pdf/25-26/Plan_de_feu_et_patch/Patch_DMX_LCL_2025-26.pdf" title="Patch DMX" icon="document" subtitle="Saison 2026-27" tag="PDF" tagColor="blue" >}}
+  {{< card link="/assets/pdf/25-26/Infos_Circuits_Alimentation.pdf" title="Info Circuits Alimentation" icon="document" subtitle="Saison 2026-27" tag="PDF" tagColor="blue" >}}
 {{< /cards >}}
 
 ---

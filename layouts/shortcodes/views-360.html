@@ -91,16 +91,16 @@
 <div class="views-pano-grid">
   <div class="view-card">
     <h4>Panorama 360° — Vue 1</h4>
-    <iframe src="/pano-viewer.html?cube=cube1" class="view-canvas view-canvas-pano" frameborder="0" allowfullscreen></iframe>
+    <iframe src="{{ "pano-viewer.html" | relURL }}?cube=cube1" class="view-canvas view-canvas-pano" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="view-card">
     <h4>Panorama 360° — Vue 2</h4>
-    <iframe src="/pano-viewer.html?cube=cube2" class="view-canvas view-canvas-pano" frameborder="0" allowfullscreen></iframe>
+    <iframe src="{{ "pano-viewer.html" | relURL }}?cube=cube2" class="view-canvas view-canvas-pano" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
 <!-- Three.js pour le modèle 3D (chargé après les iframes) -->
-<script src="/assets/js/three.min.js"></script>
+<script src="{{ "assets/js/three.min.js" | relURL }}"></script>
 
 <script>
 (function initGltfViewer() {
@@ -173,7 +173,7 @@
   function loadModel() {
     if (!T.GLTFLoader) { console.warn('GLTFLoader non disponible'); return; }
     var loader = new T.GLTFLoader();
-    loader.load('/assets/3D/venue3D.glb', function(gltf) {
+    loader.load('{{ "assets/3D/venue3D.glb" | relURL }}', function(gltf) {
       var box = new T.Box3().setFromObject(gltf.scene);
       var center = box.getCenter(new T.Vector3());
       var size = box.getSize(new T.Vector3());
@@ -239,7 +239,7 @@
   // Charger OrbitControls et GLTFLoader locaux APRÈS que PANOLENS ait fini
   // Ils s'enregistrent dans THREE namespace
   var s1 = document.createElement('script');
-  s1.src = '/assets/js/OrbitControls.js';
+  s1.src = '{{ "assets/js/OrbitControls.js" | relURL }}';
   s1.onload = function() {
     controls = new T.OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
@@ -255,7 +255,7 @@
     container.addEventListener('pointerleave', function() { controls.autoRotate = true; });
 
     var s2 = document.createElement('script');
-    s2.src = '/assets/js/GLTFLoader.js';
+    s2.src = '{{ "assets/js/GLTFLoader.js" | relURL }}';
     s2.onload = loadModel;
     document.body.appendChild(s2);
   };

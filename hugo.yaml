@@ -25,7 +25,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: /assets/img/les-champs-libres.png
+      path: assets/img/les-champs-libres.png
       link: https://www.leschampslibres.fr/
       width: 80
     width: normal

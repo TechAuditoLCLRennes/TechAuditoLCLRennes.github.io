@@ -10,13 +10,13 @@ body { width: 100%; height: 100%; overflow: hidden; background: #111; }
 </head>
 <body>
 <div id="pano"></div>
-<script src="/assets/js/three.min.js"></script>
-<script src="/assets/js/panolens.min.js"></script>
+<script src="assets/js/three.min.js"></script>
+<script src="assets/js/panolens.min.js"></script>
 <script>
 (function() {
   var params = new URLSearchParams(window.location.search);
   var cube = params.get('cube') || 'cube1';
-  var base = '/assets/virtual_cubes/' + cube + '/';
+  var base = 'assets/virtual_cubes/' + cube + '/';
   var faces = ['right','left','top','bottom','front','back'].map(function(f){ return base + f + '.jpg'; });
   var panorama = new PANOLENS.CubePanorama(faces);
   var viewer = new PANOLENS.Viewer({

@@ -1,0 +1,29 @@
+# Publication du site Hugo sur GitLab Pages
+# → https://leschampslibres.gitlab.io/techauditolclrennes/
+#
+# Miroir du workflow GitHub (.github/workflows/deploy.yml) :
+# même version d'Hugo extended, même baseURL injectée au build —
+# CI_PAGES_URL contient déjà le chemin du projet, hugo.yaml reste
+# tel quel.
+
+image: debian:bookworm-slim
+
+variables:
+  HUGO_VERSION: "0.164.0"
+  # le thème hextra est un sous-module git
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  stage: deploy
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq wget ca-certificates
+    - wget -qO /tmp/hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+    - tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo
+    - hugo version
+  script:
+    - hugo --config hugo.yaml --minify --baseURL "${CI_PAGES_URL}/"
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
